@@ -76,6 +76,7 @@
     <None Include="Assets\Forst\CTI Runtime Components\CTI Runtime Components BIRP\Shaders\CTI_Debug.shader" />
     <None Include="Assets\Forst\CTI Runtime Components\CTI Runtime Components BIRP\Shaders\CTI_LOD_Leaves_301.shader" />
     <None Include="Assets\Forst\CTI Runtime Components\CTI Runtime Components BIRP\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
+    <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
