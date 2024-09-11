@@ -64,10 +64,28 @@ public class CustomCharacterController : MonoBehaviour{
             Walk();
         }
         //Если зажат пробел, то в аниматоре отправляем сообщение тригеру, который активирует анимацию прыжка
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
-            anim.SetTrigger("Jump");
+            if(Input.GetKey(KeyCode.LeftShift))
+            {
+                anim.SetBool("jump running", true);
+            }
+            else
+            {
+                anim.SetBool("jump", true);
+            }
+              // Setează bool-ul pentru săritură
+            Jump();
         }
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("jump"))
+        {
+            anim.SetBool("jump", false);  // Resetează bool-ul
+        }
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Running Jump"))
+        {
+            anim.SetBool("jump running", false);  // Resetează bool-ul
+        }
+
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -90,6 +108,10 @@ public class CustomCharacterController : MonoBehaviour{
         rig.velocity = new Vector3(movingVector.x, rig.velocity.y,movingVector.z);
         // У меня был баг, что персонаж крутился на месте и это исправил с помощью этой строки
         rig.angularVelocity = Vector3.zero;
+    }
+    bool IsGrounded()
+    {
+        return Physics.Raycast(transform.position, Vector3.down, 1.1f);
     }
     public void Jump()
     {
