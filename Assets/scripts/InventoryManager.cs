@@ -11,6 +11,10 @@ public class InventoryManager : MonoBehaviour
     private Camera mainCamera;
     public float reachDistance =2;
     // Start is called before the first frame update
+    private void Awake()
+    {
+        UIPanel.SetActive(true);
+    }
     void Start()
     {
         mainCamera = Camera.main;
@@ -41,14 +45,19 @@ public class InventoryManager : MonoBehaviour
         }
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
+        
         if(Physics.Raycast(ray, out hit, reachDistance ))
         {
-            Debug.DrawRay(ray.origin, ray.direction*reachDistance, Color.green);
-            if(hit.collider.gameObject.GetComponent<Item>() != null)
+            if(Input.GetKeyDown(KeyCode.E))
             {
-                AddItem(hit.collider.gameObject.GetComponent<Item>().item, hit.collider.gameObject.GetComponent<Item>().amount);
-                Destroy(hit.collider.gameObject);
+                if (hit.collider.gameObject.GetComponent<Item>() != null)
+                {
+                    AddItem(hit.collider.gameObject.GetComponent<Item>().item, hit.collider.gameObject.GetComponent<Item>().amount);
+                    Destroy(hit.collider.gameObject);
+                }
             }
+            Debug.DrawRay(ray.origin, ray.direction*reachDistance, Color.green);
+
         }
         else
         {
@@ -62,16 +71,21 @@ public class InventoryManager : MonoBehaviour
             if(slot.item== _item)
             {
                 slot.amount += _amount;
+                slot.itemAmountText.text = slot.amount.ToString();
+                slot.SetIcon(_item.icon);
                 return;
             }
         }
         foreach (InventorySlot slot in slots)
         {
-            if(!slot.isEmpty)
+            if(slot.isEmpty)
             {
                 slot.item = _item;
                 slot.amount -= _amount;
-                slot.isEmpty = false;   
+                slot.isEmpty = false;
+                slot.SetIcon(_item.icon);
+                slot.itemAmountText.text = _amount.ToString();
+                break;
             }
         }
     }

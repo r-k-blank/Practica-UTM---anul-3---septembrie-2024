@@ -7,6 +7,7 @@ public class ItemScriptableObject : ScriptableObject
 {
     public ItemType itemType;
     public GameObject itemPrefab;
+    public Sprite icon;
     public string ItemName;
     public int MaximumAmount;
     public string ItemDescription;
