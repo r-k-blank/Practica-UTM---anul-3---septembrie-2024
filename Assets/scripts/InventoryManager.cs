@@ -1,3 +1,4 @@
+﻿using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,10 +7,12 @@ public class InventoryManager : MonoBehaviour
 {
     public GameObject UIPanel;
     public Transform inventoryPanel;
+    public GameObject Crosshair;
     public List<InventorySlot> slots = new List<InventorySlot> ();
     public bool IsOpened;
     private Camera mainCamera;
-    public float reachDistance =2;
+    public float reachDistance =3f;
+    public CinemachineVirtualCamera virtualCamera;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -18,7 +21,7 @@ public class InventoryManager : MonoBehaviour
     void Start()
     {
         mainCamera = Camera.main;
-        UIPanel.SetActive(false);
+        
         for (int iterator = 0; iterator< inventoryPanel.childCount; iterator++)
         {
             if(inventoryPanel.GetChild(iterator).GetComponent<InventorySlot>()!=null)
@@ -26,6 +29,7 @@ public class InventoryManager : MonoBehaviour
                 slots.Add(inventoryPanel.GetChild(iterator).GetComponent<InventorySlot>());
             }
         }
+        UIPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -37,32 +41,42 @@ public class InventoryManager : MonoBehaviour
             if(IsOpened)
             {
                 UIPanel.SetActive(true);
+                Crosshair.SetActive(false);
+                virtualCamera.GetCinemachineComponent<CinemachinePOV>().m_HorizontalAxis.m_InputAxisName = "";
+                virtualCamera.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.m_InputAxisName = "";
+                // Прекрепляем курсор к середине экрана
+                Cursor.lockState = CursorLockMode.None;
+                // и делаем его невидимым
+                Cursor.visible = true;
             }
             else
             {
                 UIPanel.SetActive(false);
+                Crosshair.SetActive(true);
+                virtualCamera.GetCinemachineComponent<CinemachinePOV>().m_HorizontalAxis.m_InputAxisName = "Mouse X";
+                virtualCamera.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.m_InputAxisName = "Mouse Y";
+                // Прекрепляем курсор к середине экрана
+                Cursor.lockState = CursorLockMode.Locked;
+                // и делаем его невидимым
+                Cursor.visible = false;
             }
         }
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        
-        if(Physics.Raycast(ray, out hit, reachDistance ))
+
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            if(Input.GetKeyDown(KeyCode.E))
-            {
+            if (Physics.Raycast(ray, out hit, reachDistance))
+                {
                 if (hit.collider.gameObject.GetComponent<Item>() != null)
                 {
                     AddItem(hit.collider.gameObject.GetComponent<Item>().item, hit.collider.gameObject.GetComponent<Item>().amount);
                     Destroy(hit.collider.gameObject);
                 }
             }
-            Debug.DrawRay(ray.origin, ray.direction*reachDistance, Color.green);
 
         }
-        else
-        {
-            Debug.DrawRay(ray.origin, ray.direction*reachDistance, Color.red);
-        }
+
     }
     private void AddItem(ItemScriptableObject _item, int _amount)
     {
@@ -70,11 +84,13 @@ public class InventoryManager : MonoBehaviour
         {
             if(slot.item== _item)
             {
-                slot.amount += _amount;
-                slot.itemAmountText.text = slot.amount.ToString();
-                slot.SetIcon(_item.icon);
-
-                return;
+                if(slot.amount+_amount<=_item.MaximumAmount)
+                {
+                    slot.amount += _amount;
+                    slot.itemAmountText.text = slot.amount.ToString();
+                    slot.SetIcon(_item.icon);
+                    return;
+                }
             }
         }
         foreach (InventorySlot slot in slots)
@@ -82,7 +98,7 @@ public class InventoryManager : MonoBehaviour
             if(slot.isEmpty)
             {
                 slot.item = _item;
-                slot.amount -= _amount;
+                slot.amount = _amount;
                 slot.isEmpty = false;
                 slot.SetIcon(_item.icon);
                 slot.itemAmountText.text = _amount.ToString();
