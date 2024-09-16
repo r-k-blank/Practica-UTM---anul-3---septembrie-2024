@@ -13,6 +13,8 @@ public class CustomCharacterController : MonoBehaviour{
     public float currentSpeed;
     private float animationInterpolation = 1f;
     // Start is called before the first frame update
+
+    public Transform AimTarget;
     void Start()
     {
         // Прекрепляем курсор к середине экрана
@@ -85,6 +87,9 @@ public class CustomCharacterController : MonoBehaviour{
         {
             anim.SetBool("jump running", false);  // Resetează bool-ul
         }
+        Ray desiredTirgetRay = mainCamera.GetComponent<Camera>().ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
+        Vector3 desiredTaergetPosition = desiredTirgetRay.origin + desiredTirgetRay.direction* 0.7f;
+        AimTarget.position = desiredTaergetPosition;
 
     }
     // Update is called once per frame
