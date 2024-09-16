@@ -40,8 +40,32 @@ public class CustomCharacterController : MonoBehaviour{
 
         currentSpeed = Mathf.Lerp(currentSpeed, walkingSpeed, Time.deltaTime * 3);
     }
+    public void ChangeLayerWEight(float newLayerWeight)
+    {
+        StartCoroutine(SmoothLayerWeightChange(anim.GetLayerWeight(1), newLayerWeight, 0.3f));
+    }
+    IEnumerator SmoothLayerWeightChange(float oldWeight, float newWeight,float changeDuration)
+    {
+        float elapsed = 0.0f;
+        while (elapsed < changeDuration) 
+            {
+                float curentWeight = Mathf.Lerp(oldWeight, newWeight, elapsed / changeDuration);
+                anim.SetLayerWeight(1, curentWeight);
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+            anim.SetLayerWeight(1, newWeight);
+    }
     private void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            anim.SetBool("Hit", true);
+        }
+        if(Input.GetKeyUp(KeyCode.Mouse0))
+        {
+            anim.SetBool("Hit", false);
+        }
         // Устанавливаем поворот персонажа когда камера поворачивается 
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x,mainCamera.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
         

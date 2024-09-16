@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|c:\\users\\rkbla\\onedrive\\documents\\github\\practica-utm---anul-3---septembrie-2024\\assets\\scripts\\quickslotinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|c:\\users\\rkbla\\onedrive\\documents\\github\\practica-utm---anul-3---septembrie-2024\\assets\\scripts\\customcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\quickslotinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quickslotinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|c:\\users\\rkbla\\onedrive\\documents\\github\\practica-utm---anul-3---septembrie-2024\\assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,15 +23,11 @@
       "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemscriptableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\customcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|c:\\users\\rkbla\\onedrive\\documents\\github\\practica-utm---anul-3---septembrie-2024\\assets\\scripts\\draganddropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\draganddropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draganddropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -54,12 +54,11 @@
               "RelativeToolTip": "Assets\\scripts\\DragAndDropItem.cs",
               "ViewState": "AQIAAGUAAAAAAAAAAAAswEkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T17:18:51.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T17:18:51.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "QuickslotInventory.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\QuickslotInventory.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\QuickslotInventory.cs",
@@ -67,12 +66,11 @@
               "RelativeToolTip": "Assets\\scripts\\QuickslotInventory.cs",
               "ViewState": "AQIAAEoAAAAAAAAAAAAowF0AAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T17:14:31.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T17:14:31.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InventoryManager.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\InventoryManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\InventoryManager.cs",
@@ -80,12 +78,11 @@
               "RelativeToolTip": "Assets\\scripts\\InventoryManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T14:49:36.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T14:49:36.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ItemScriptableObject.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\ItemScriptableObject.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ItemScriptableObject.cs",
@@ -93,12 +90,11 @@
               "RelativeToolTip": "Assets\\scripts\\ItemScriptableObject.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T08:42:31.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T08:42:31.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FoodItem.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\FoodItem.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\FoodItem.cs",
@@ -106,18 +102,17 @@
               "RelativeToolTip": "Assets\\scripts\\FoodItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T08:34:39.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T08:34:39.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "CustomCharacterController.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\CustomCharacterController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\CustomCharacterController.cs",
               "ToolTip": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\CustomCharacterController.cs",
               "RelativeToolTip": "Assets\\scripts\\CustomCharacterController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwBEAAAAAAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAjwDoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T09:20:50.58Z",
               "EditorCaption": ""
@@ -132,8 +127,7 @@
               "RelativeToolTip": "Assets\\scripts\\Item.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T16:05:23.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T16:05:23.966Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "Assets\\scripts\\InventorySlot.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T14:57:45.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T14:57:45.078Z"
             }
           ]
         }
