@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    public GameObject UIPanel;
+    public GameObject UIBG;
     public Transform inventoryPanel;
     public GameObject Crosshair;
     public List<InventorySlot> slots = new List<InventorySlot> ();
@@ -16,7 +16,7 @@ public class InventoryManager : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        UIPanel.SetActive(true);
+        UIBG.SetActive(true);
     }
     void Start()
     {
@@ -29,7 +29,8 @@ public class InventoryManager : MonoBehaviour
                 slots.Add(inventoryPanel.GetChild(iterator).GetComponent<InventorySlot>());
             }
         }
-        UIPanel.SetActive(false);
+        UIBG.SetActive(false);
+        inventoryPanel.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -40,10 +41,13 @@ public class InventoryManager : MonoBehaviour
             IsOpened = !IsOpened;
             if(IsOpened)
             {
-                UIPanel.SetActive(true);
+                UIBG.SetActive(true);
+                inventoryPanel.gameObject.SetActive(true);
                 Crosshair.SetActive(false);
                 virtualCamera.GetCinemachineComponent<CinemachinePOV>().m_HorizontalAxis.m_InputAxisName = "";
                 virtualCamera.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.m_InputAxisName = "";
+                virtualCamera.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.m_InputAxisValue = 0;
+                virtualCamera.GetCinemachineComponent<CinemachinePOV>().m_HorizontalAxis.m_InputAxisValue = 0;
                 // Прекрепляем курсор к середине экрана
                 Cursor.lockState = CursorLockMode.None;
                 // и делаем его невидимым
@@ -51,7 +55,8 @@ public class InventoryManager : MonoBehaviour
             }
             else
             {
-                UIPanel.SetActive(false);
+                UIBG.SetActive(false);
+                inventoryPanel.gameObject.SetActive(false);
                 Crosshair.SetActive(true);
                 virtualCamera.GetCinemachineComponent<CinemachinePOV>().m_HorizontalAxis.m_InputAxisName = "Mouse X";
                 virtualCamera.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.m_InputAxisName = "Mouse Y";

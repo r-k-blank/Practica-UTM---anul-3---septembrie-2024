@@ -103,6 +103,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\scripts\QuickslotInventory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Forst\CTI Runtime Components\CTI Runtime Components BIRP\Shaders\CTI_LOD_Bark_Array_301.shader" />

@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 1
   itemPrefab: {fileID: 1105760525757012, guid: bfec01bc3e4d0444dbe595b4f55c6730, type: 3}
-  icon: {fileID: 21300000, guid: 2aa6ab62866ce4439ab7303f7da55e51, type: 3}
+  icon: {fileID: 21300000, guid: 595df4139623e93498e02108674ff1f0, type: 3}
   ItemName: Apple
   MaximumAmount: 4
   ItemDescription: 
-  HealAmount: 1.38
+  isConsumeable: 1
+  changeHealth: 15
+  changeHunger: 0
+  changeThirst: 0
