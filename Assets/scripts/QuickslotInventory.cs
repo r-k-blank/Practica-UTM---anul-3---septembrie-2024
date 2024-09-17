@@ -13,6 +13,8 @@ public class QuickslotInventory : MonoBehaviour
     public Sprite selectedSprite;
     public Sprite notSelectedSprite;
     public Text healthText;
+    public Transform itemContainer;
+    public InventorySlot activeSlot = null;
 
     // Update is called once per frame
     void Update()
@@ -35,6 +37,7 @@ public class QuickslotInventory : MonoBehaviour
             }
             // Берем предыдущий слот и меняем его картинку на "выбранную"
             quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
+            activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
             // Что то делаем с предметом:
 
         }
@@ -54,8 +57,9 @@ public class QuickslotInventory : MonoBehaviour
             }
             // Берем предыдущий слот и меняем его картинку на "выбранную"
             quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
+            activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
             // Что то делаем с предметом:
-            
+
         }
         // Используем цифры
         for(int i = 0; i < quickslotParent.childCount; i++)
@@ -69,10 +73,12 @@ public class QuickslotInventory : MonoBehaviour
                     if (quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite == notSelectedSprite)
                     {
                         quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
+                        activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
                     }
                     else
                     {
                         quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = notSelectedSprite;
+                        activeSlot = null;
                     }
                 }
                 // Иначе мы убираем свечение с предыдущего слота и светим слот который мы выбираем
@@ -81,6 +87,7 @@ public class QuickslotInventory : MonoBehaviour
                     quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = notSelectedSprite;
                     currentQuickslotID = i;
                     quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
+                    activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
                 }
             }
         }

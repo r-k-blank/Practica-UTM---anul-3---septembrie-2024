@@ -12,6 +12,8 @@ public class CustomCharacterController : MonoBehaviour{
     public float runningSpeed = 6f;
     public float currentSpeed;
     private float animationInterpolation = 1f;
+    public InventoryManager inventoryManager;
+    public QuickslotInventory quickslotInventory;
     // Start is called before the first frame update
 
     public Transform AimTarget;
@@ -60,7 +62,20 @@ public class CustomCharacterController : MonoBehaviour{
     {
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
-            anim.SetBool("Hit", true);
+            if (quickslotInventory.activeSlot != null)
+            { 
+                if(quickslotInventory.activeSlot.item !=null)
+                {
+                    if (quickslotInventory.activeSlot.item.itemType == ItemType.Instrument)
+                    {
+                        if (inventoryManager.IsOpened == false)
+                        {
+                            anim.SetBool("Hit", true);
+                        }
+                    }
+                }
+
+            }
         }
         if(Input.GetKeyUp(KeyCode.Mouse0))
         {

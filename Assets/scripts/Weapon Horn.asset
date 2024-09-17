@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b4e77ee29ee0a749b5421659717e021, type: 3}
+  m_Name: Weapon Horn
+  m_EditorClassIdentifier: 
+  itemType: 3
+  itemPrefab: {fileID: 3223897512419092520, guid: d1347dd4dd2b6e24997b7544e80248a0, type: 3}
+  icon: {fileID: 21300000, guid: bd7e16cd436205049a72f31ab9347d4c, type: 3}
+  ItemName: Horn weapon
+  MaximumAmount: 1
+  ItemDescription: 
+  isConsumeable: 0
+  changeHealth: 0
+  changeHunger: 0
+  changeThirst: 0
