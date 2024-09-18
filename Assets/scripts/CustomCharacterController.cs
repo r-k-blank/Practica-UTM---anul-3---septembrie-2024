@@ -162,4 +162,14 @@ public class CustomCharacterController : MonoBehaviour{
         // Выполняем прыжок по команде анимации.
         rig.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
+    public void Hit()
+    {
+        foreach (Transform item in quickslotInventory.allWeapons)
+        {
+            if (item.gameObject.activeSelf)
+            {
+                item.GetComponent<GatherResurces>().GatherResource();
+            }
+        }
+    }
 }

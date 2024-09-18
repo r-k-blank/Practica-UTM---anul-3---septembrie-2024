@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4071390273635838}
   - component: {fileID: 205829865164112152}
-  m_Layer: 0
+  - component: {fileID: 3532677932782244947}
+  - component: {fileID: -5886954002938061062}
+  m_Layer: 7
   m_Name: PF Conifer Medium BOTD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,15 +26,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214657917099862}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4740200127204918}
   - {fileID: 4312538407058960}
   - {fileID: 4285550008755934}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!205 &205829865164112152
 LODGroup:
@@ -61,6 +64,42 @@ LODGroup:
     renderers:
     - renderer: {fileID: 227131698251642430}
   m_Enabled: 1
+--- !u!136 &3532677932782244947
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214657917099862}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1315813
+  m_Height: 4.310194
+  m_Direction: 1
+  m_Center: {x: 0.09257984, y: 1.655097, z: 0.038137436}
+--- !u!114 &-5886954002938061062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214657917099862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1382aeb5a1188459bdce22d78e6bdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &1487772876627174
 GameObject:
   m_ObjectHideFlags: 0
@@ -71,7 +110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4285550008755934}
   - component: {fileID: 227131698251642430}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Conifer Medium BOTD Billboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,12 +124,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487772876627174}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4071390273635838}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!227 &227131698251642430
 BillboardRenderer:
@@ -103,10 +143,12 @@ BillboardRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -144,7 +186,7 @@ GameObject:
   - component: {fileID: 33257530108043278}
   - component: {fileID: 23436335641026108}
   - component: {fileID: 193380587091239086}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Conifer Medium BOTD LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,12 +200,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579866807121280}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4071390273635838}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33257530108043278
 MeshFilter:
@@ -184,10 +227,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -213,6 +258,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!193 &193380587091239086
 Tree:
   m_ObjectHideFlags: 0
@@ -234,7 +280,7 @@ GameObject:
   - component: {fileID: 33779992140741664}
   - component: {fileID: 23942989677910610}
   - component: {fileID: 193825140764582888}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Conifer Medium BOTD LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,12 +294,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661850992318236}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4071390273635838}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33779992140741664
 MeshFilter:
@@ -274,10 +321,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -303,6 +352,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!193 &193825140764582888
 Tree:
   m_ObjectHideFlags: 0

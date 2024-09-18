@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b4e77ee29ee0a749b5421659717e021, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemPrefab: {fileID: 4309638555189029211, guid: 240b3dbf77b0e4f4dae888ea64effcb3, type: 3}
+  icon: {fileID: 21300000, guid: 91263d65064ae9a4aa338ba4f67e4878, type: 3}
+  ItemName: Wood
+  MaximumAmount: 100
+  ItemDescription: Piece of wood
+  isConsumeable: 0
+  inHandName: 
+  changeHealth: 0
+  changeHunger: 0
+  changeThirst: 0
