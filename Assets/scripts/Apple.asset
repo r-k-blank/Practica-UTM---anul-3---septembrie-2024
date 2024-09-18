@@ -19,6 +19,7 @@ MonoBehaviour:
   MaximumAmount: 4
   ItemDescription: 
   isConsumeable: 1
+  inHandName: 
   changeHealth: 15
   changeHunger: 0
   changeThirst: 0

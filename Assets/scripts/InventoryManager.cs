@@ -7,6 +7,7 @@ public class InventoryManager : MonoBehaviour
 {
     public GameObject UIBG;
     public Transform inventoryPanel;
+    public Transform quickslotPanel;
     public GameObject Crosshair;
     public List<InventorySlot> slots = new List<InventorySlot> ();
     public bool IsOpened;
@@ -27,6 +28,13 @@ public class InventoryManager : MonoBehaviour
             if(inventoryPanel.GetChild(iterator).GetComponent<InventorySlot>()!=null)
             {
                 slots.Add(inventoryPanel.GetChild(iterator).GetComponent<InventorySlot>());
+            }
+        }
+        for (int iterator = 0; iterator < quickslotPanel.childCount; iterator++)
+        {
+            if (quickslotPanel.GetChild(iterator).GetComponent<InventorySlot>() != null)
+            {
+                slots.Add(quickslotPanel.GetChild(iterator).GetComponent<InventorySlot>());
             }
         }
         UIBG.SetActive(false);
@@ -106,7 +114,11 @@ public class InventoryManager : MonoBehaviour
                 slot.amount = _amount;
                 slot.isEmpty = false;
                 slot.SetIcon(_item.icon);
-                slot.itemAmountText.text = _amount.ToString();
+                if(slot.item.MaximumAmount != 1)
+                {
+                    slot.itemAmountText.text = _amount.ToString();
+                }
+                
                 break;
             }
         }

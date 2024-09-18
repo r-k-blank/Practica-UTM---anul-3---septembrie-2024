@@ -15,6 +15,7 @@ public class QuickslotInventory : MonoBehaviour
     public Text healthText;
     public Transform itemContainer;
     public InventorySlot activeSlot = null;
+    public Transform allWeapons;
 
     // Update is called once per frame
     void Update()
@@ -38,6 +39,7 @@ public class QuickslotInventory : MonoBehaviour
             // Берем предыдущий слот и меняем его картинку на "выбранную"
             quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
             activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
+            ShowItemInHand();
             // Что то делаем с предметом:
 
         }
@@ -58,6 +60,7 @@ public class QuickslotInventory : MonoBehaviour
             // Берем предыдущий слот и меняем его картинку на "выбранную"
             quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
             activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
+            ShowItemInHand();
             // Что то делаем с предметом:
 
         }
@@ -74,11 +77,13 @@ public class QuickslotInventory : MonoBehaviour
                     {
                         quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
                         activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
+                        ShowItemInHand();
                     }
                     else
                     {
                         quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = notSelectedSprite;
                         activeSlot = null;
+                        HideItemInHand();  
                     }
                 }
                 // Иначе мы убираем свечение с предыдущего слота и светим слот который мы выбираем
@@ -88,6 +93,7 @@ public class QuickslotInventory : MonoBehaviour
                     currentQuickslotID = i;
                     quickslotParent.GetChild(currentQuickslotID).GetComponent<Image>().sprite = selectedSprite;
                     activeSlot = quickslotParent.GetChild(currentQuickslotID).GetComponent<InventorySlot>();
+                    ShowItemInHand();
                 }
             }
         }
@@ -127,6 +133,39 @@ public class QuickslotInventory : MonoBehaviour
         else
         {
             healthText.text = "100";
+        }
+    }
+    private void ShowItemInHand()
+    {
+        HideItemInHand();
+        if(activeSlot.item == null)
+        {
+            return;
+        }
+        for(int i=0;i<allWeapons.childCount;i++)
+        {
+            if(activeSlot.item.inHandName == allWeapons.GetChild(i).name)
+            {
+                allWeapons.GetChild(i).gameObject.SetActive(true);
+            }
+        }
+    }
+    private void HideItemInHand()
+    {
+        for(int i=0;i<allWeapons.childCount;i++)
+        {
+            allWeapons.GetChild(i).gameObject.SetActive(false);
+        }
+    }
+    public void CheckItemInHand()
+    {
+        if(activeSlot != null)
+        {
+            ShowItemInHand();
+        }
+        else
+        {
+            HideItemInHand();
         }
     }
 }
