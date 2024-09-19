@@ -16,7 +16,7 @@ public class GatherResurces : MonoBehaviour
         Ray ray = mainCamera.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
         if (Physics.Raycast(ray,out hit, 1.5f, layerMask))
         {
-            if (hit.collider.GetComponent<TreeHealth>().health <= 1)
+            if (hit.collider.GetComponent<TreeHealth>().health >= 1)
             {
                 Instantiate(hitFX, hit.point, Quaternion.Euler(hit.normal));
                 inventoryManager.AddItem(resource, resoucesAmount);

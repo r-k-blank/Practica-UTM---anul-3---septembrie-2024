@@ -1111,6 +1111,14 @@
       <Project>{37713FDF-B5F5-9BA3-CBA9-4221642F9024}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="KrisDevelopment.EnviroSpawn.Editor.csproj">
+      <Project>{E0DF1E75-5080-8C35-1C0B-9F43434EC820}</Project>
+      <Name>KrisDevelopment.EnviroSpawn.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="KrisDevelopment.EnviroSpawn.csproj">
+      <Project>{E6EC400E-3139-A82B-00D8-295729A5708D}</Project>
+      <Name>KrisDevelopment.EnviroSpawn</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -99,7 +99,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1382aeb5a1188459bdce22d78e6bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startHealth: 5
   health: 5
+  destroyTime: 5
+  spawnerName: Tree Generator
 --- !u!1 &1487772876627174
 GameObject:
   m_ObjectHideFlags: 0
