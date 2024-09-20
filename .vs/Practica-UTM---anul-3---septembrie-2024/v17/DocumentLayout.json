@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|c:\\users\\rkbla\\onedrive\\documents\\github\\practica-utm---anul-3---septembrie-2024\\assets\\scripts\\gatherresurces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gatherresurces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|c:\\users\\rkbla\\onedrive\\documents\\github\\practica-utm---anul-3---septembrie-2024\\assets\\scripts\\resourcehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resourcehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\treehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\treehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\gatherresurces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gatherresurces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\customcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,30 +50,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TreeHealth.cs",
-              "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\TreeHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\TreeHealth.cs",
-              "ToolTip": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\TreeHealth.cs",
-              "RelativeToolTip": "Assets\\scripts\\TreeHealth.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
+              "DocumentIndex": 0,
+              "Title": "ResourceHealth.cs",
+              "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\ResourceHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ResourceHealth.cs",
+              "ToolTip": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\ResourceHealth.cs",
+              "RelativeToolTip": "Assets\\scripts\\ResourceHealth.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCIAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T16:48:49.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GatherResurces.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\GatherResurces.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GatherResurces.cs",
               "ToolTip": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\GatherResurces.cs",
               "RelativeToolTip": "Assets\\scripts\\GatherResurces.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAASwBMAAAANAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T13:13:55.378Z",
               "EditorCaption": ""
@@ -110,7 +110,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\CustomCharacterController.cs",
               "ToolTip": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\CustomCharacterController.cs",
               "RelativeToolTip": "Assets\\scripts\\CustomCharacterController.cs",
-              "ViewState": "AQIAAI8AAAAAAAAAAAAswKoAAABFAAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAuwKoAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T09:20:50.58Z"
             },

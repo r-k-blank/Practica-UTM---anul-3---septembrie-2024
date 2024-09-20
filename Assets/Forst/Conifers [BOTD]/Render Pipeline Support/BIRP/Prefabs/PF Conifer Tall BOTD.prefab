@@ -364,4 +364,5 @@ MonoBehaviour:
   startHealth: 10
   health: 10
   destroyTime: 7
+  resourceType: {fileID: 11400000, guid: 7ba59488efc4980479e6e029fbaad7b1, type: 2}
   spawnerName: Tree Generator
