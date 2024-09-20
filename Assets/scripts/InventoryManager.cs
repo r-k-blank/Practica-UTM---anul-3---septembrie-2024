@@ -104,6 +104,7 @@ public class InventoryManager : MonoBehaviour
                     slot.SetIcon(_item.icon);
                     return;
                 }
+                continue;
             }
         }
         foreach (InventorySlot slot in slots)

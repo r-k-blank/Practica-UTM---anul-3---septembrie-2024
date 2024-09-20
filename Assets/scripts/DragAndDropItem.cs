@@ -11,7 +11,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
 {
     public InventorySlot oldSlot;
     private Transform player;
-    private QuickslotInventory quickslotInventory;
+    private QuickslotInventory quickslotInventory; // added this++
 
     private void Start()
     {
@@ -38,7 +38,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         // Делаем так чтобы нажатия мышкой не игнорировали эту картинку
         GetComponentInChildren<Image>().raycastTarget = false;
         // Делаем наш DraggableObject ребенком InventoryPanel чтобы DraggableObject был над другими слотами инвенторя
-        transform.SetParent(transform.parent.parent);
+        transform.SetParent(transform.parent.parent.parent);
     }
 
     public void OnPointerUp(PointerEventData eventData)
@@ -54,27 +54,45 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         transform.SetParent(oldSlot.transform);
         transform.position = oldSlot.transform.position;
         //Если мышка отпущена над объектом по имени UIPanel, то...
-        if (eventData.pointerCurrentRaycast.gameObject.name == "UIBG")
+        if (eventData.pointerCurrentRaycast.gameObject.name == "UIBG") // renamed to UIBG
         {
-            // Выброс объектов из инвентаря - Спавним префаб обекта перед персонажем
-            GameObject itemObject = Instantiate(oldSlot.item.itemPrefab, player.position + Vector3.up + player.forward, Quaternion.identity);
-            // Устанавливаем количество объектов такое какое было в слоте
-            itemObject.GetComponent<Item>().amount = oldSlot.amount;
-            // убираем значения InventorySlot
-            NullifySlotData();
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                GameObject itemObject = Instantiate(oldSlot.item.itemPrefab, player.position + Vector3.up + player.forward, Quaternion.identity);
+                itemObject.GetComponent<Item>().amount = Mathf.CeilToInt((float)oldSlot.amount / 2);
+                oldSlot.amount -= Mathf.CeilToInt((float)oldSlot.amount / 2);
+                oldSlot.itemAmountText.text = oldSlot.amount.ToString();
+            }
+            else if (Input.GetKey(KeyCode.LeftControl))
+            {
+                GameObject itemObject = Instantiate(oldSlot.item.itemPrefab, player.position + Vector3.up + player.forward, Quaternion.identity);
+                // Устанавливаем количество объектов такое какое было в слоте
+                itemObject.GetComponent<Item>().amount = 1;
+                oldSlot.amount--;
+                oldSlot.itemAmountText.text = oldSlot.amount.ToString();
+            }
+            else
+            {
+                // Выброс объектов из инвентаря - Спавним префаб обекта перед персонажем
+                GameObject itemObject = Instantiate(oldSlot.item.itemPrefab, player.position + Vector3.up + player.forward, Quaternion.identity);
+                // Устанавливаем количество объектов такое какое было в слоте
+                itemObject.GetComponent<Item>().amount = oldSlot.amount;
+                // убираем значения InventorySlot
+                NullifySlotData();
+            }
             quickslotInventory.CheckItemInHand();
         }
-        else if(eventData.pointerCurrentRaycast.gameObject.transform.parent.parent == null)
+        else if (eventData.pointerCurrentRaycast.gameObject.transform.parent.parent == null)
         {
             return;
         }
-        else if(eventData.pointerCurrentRaycast.gameObject.transform.parent.parent.GetComponent<InventorySlot>() != null)
+        else if (eventData.pointerCurrentRaycast.gameObject.transform.parent.parent.GetComponent<InventorySlot>() != null)
         {
             //Перемещаем данные из одного слота в другой
             ExchangeSlotData(eventData.pointerCurrentRaycast.gameObject.transform.parent.parent.GetComponent<InventorySlot>());
             quickslotInventory.CheckItemInHand();
         }
-       
+
     }
     public void NullifySlotData() // made public 
     {
@@ -94,6 +112,96 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         bool isEmpty = newSlot.isEmpty;
         GameObject iconGO = newSlot.iconGO;
         TMP_Text itemAmountText = newSlot.itemAmountText;
+        if (item == null)
+        {
+            if (oldSlot.item.MaximumAmount > 1 && oldSlot.amount > 1)
+            {
+                if (Input.GetKey(KeyCode.LeftShift))
+                {
+                    newSlot.item = oldSlot.item;
+                    newSlot.amount = Mathf.CeilToInt((float)oldSlot.amount / 2);
+                    newSlot.isEmpty = false;
+                    newSlot.SetIcon(oldSlot.iconGO.GetComponent<Image>().sprite);
+                    newSlot.itemAmountText.text = newSlot.amount.ToString();
+
+                    oldSlot.amount = Mathf.FloorToInt((float)oldSlot.amount / 2); ;
+                    oldSlot.itemAmountText.text = oldSlot.amount.ToString();
+                    return;
+                }
+                else if (Input.GetKey(KeyCode.LeftControl))
+                {
+                    newSlot.item = oldSlot.item;
+                    newSlot.amount = 1;
+                    newSlot.isEmpty = false;
+                    newSlot.SetIcon(oldSlot.iconGO.GetComponent<Image>().sprite);
+                    newSlot.itemAmountText.text = newSlot.amount.ToString();
+
+                    oldSlot.amount--;
+                    oldSlot.itemAmountText.text = oldSlot.amount.ToString();
+                    return;
+                }
+            }
+        }
+        if (newSlot.item != null)
+        {
+            if (oldSlot.item.name.Equals(newSlot.item.name))
+            {
+                if (Input.GetKey(KeyCode.LeftShift) && oldSlot.amount > 1)
+                {
+                    if (Mathf.CeilToInt((float)oldSlot.amount / 2) < newSlot.item.MaximumAmount - newSlot.amount)
+                    {
+                        newSlot.amount += Mathf.CeilToInt((float)oldSlot.amount / 2);
+                        newSlot.itemAmountText.text = newSlot.amount.ToString();
+
+                        oldSlot.amount -= Mathf.CeilToInt((float)oldSlot.amount / 2);
+                        oldSlot.itemAmountText.text = oldSlot.amount.ToString();
+                    }
+                    else
+                    {
+                        int difference = newSlot.item.MaximumAmount - newSlot.amount;
+                        newSlot.amount = newSlot.item.MaximumAmount;
+                        newSlot.itemAmountText.text = newSlot.amount.ToString();
+
+                        oldSlot.amount -= difference;
+                        oldSlot.itemAmountText.text = oldSlot.amount.ToString();
+
+                    }
+                    return;
+                }
+                else if (Input.GetKey(KeyCode.LeftControl) && oldSlot.amount > 1)
+                {
+                    if (newSlot.item.MaximumAmount != newSlot.amount)
+                    {
+                        newSlot.amount++;
+                        newSlot.itemAmountText.text = newSlot.amount.ToString();
+
+                        oldSlot.amount--;
+                        oldSlot.itemAmountText.text = oldSlot.amount.ToString();
+                    }
+                    return;
+                }
+                else
+                {
+                    if (newSlot.amount + oldSlot.amount >= newSlot.item.MaximumAmount)
+                    {
+                        int difference = newSlot.item.MaximumAmount - newSlot.amount;
+                        newSlot.amount = newSlot.item.MaximumAmount;
+                        newSlot.itemAmountText.text = newSlot.amount.ToString();
+
+                        oldSlot.amount -= difference;
+                        oldSlot.itemAmountText.text = oldSlot.amount.ToString();
+                    }
+                    else
+                    {
+                        newSlot.amount += oldSlot.amount;
+                        newSlot.itemAmountText.text = newSlot.amount.ToString();
+                        NullifySlotData();
+                    }
+                    return;
+                }
+
+            }
+        }
 
         // Заменяем значения newSlot на значения oldSlot
         newSlot.item = oldSlot.item;
@@ -101,7 +209,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         if (oldSlot.isEmpty == false)
         {
             newSlot.SetIcon(oldSlot.iconGO.GetComponent<Image>().sprite);
-            if(oldSlot.item.MaximumAmount != 1 )
+            if (oldSlot.item.MaximumAmount != 1) // added this if statement for single items
             {
                 newSlot.itemAmountText.text = oldSlot.amount.ToString();
             }
@@ -109,7 +217,6 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
             {
                 newSlot.itemAmountText.text = "";
             }
-            
         }
         else
         {
@@ -117,7 +224,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
             newSlot.iconGO.GetComponent<Image>().sprite = null;
             newSlot.itemAmountText.text = "";
         }
-        
+
         newSlot.isEmpty = oldSlot.isEmpty;
 
         // Заменяем значения oldSlot на значения newSlot сохраненные в переменных
@@ -126,8 +233,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         if (isEmpty == false)
         {
             oldSlot.SetIcon(item.icon);
-            oldSlot.itemAmountText.text = amount.ToString();
-            if (oldSlot.item.MaximumAmount != 1)
+            if (item.MaximumAmount != 1) // added this if statement for single items
             {
                 oldSlot.itemAmountText.text = amount.ToString();
             }
@@ -142,7 +248,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
             oldSlot.iconGO.GetComponent<Image>().sprite = null;
             oldSlot.itemAmountText.text = "";
         }
-        
+
         oldSlot.isEmpty = isEmpty;
     }
 }
