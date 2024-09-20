@@ -387,6 +387,7 @@
 "Assets/scripts/CustomCharacterController.cs"
 "Assets/scripts/DragAndDropItem.cs"
 "Assets/scripts/GatherResurces.cs"
+"Assets/scripts/Indicators.cs"
 "Assets/scripts/InventoryManager.cs"
 "Assets/scripts/InventorySlot.cs"
 "Assets/scripts/Item.cs"
