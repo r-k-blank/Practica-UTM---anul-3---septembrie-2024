@@ -3,11 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|c:\\users\\rkbla\\onedrive\\documents\\github\\practica-utm---anul-3---septembrie-2024\\assets\\scripts\\indicators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|c:\\users\\rkbla\\onedrive\\documents\\github\\practica-utm---anul-3---septembrie-2024\\assets\\unity-standard-assets-master\\unity-standard-assets-master\\standard assets\\utility\\simpleactivatormenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\unity-standard-assets-master\\unity-standard-assets-master\\standard assets\\utility\\simpleactivatormenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|c:\\users\\rkbla\\onedrive\\documents\\github\\practica-utm---anul-3---septembrie-2024\\assets\\unity-standard-assets-master\\unity-standard-assets-master\\standard assets\\utility\\forcedreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\unity-standard-assets-master\\unity-standard-assets-master\\standard assets\\utility\\forcedreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\draganddropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draganddropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\gatherresurces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gatherresurces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\resourcehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resourcehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\indicators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\indicators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|c:\\users\\rkbla\\onedrive\\documents\\github\\practica-utm---anul-3---septembrie-2024\\assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,18 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\itemcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\draganddropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draganddropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\resourcehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resourcehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\gatherresurces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gatherresurces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37713FDF-B5F5-9BA3-CBA9-4221642F9024}|Assembly-CSharp.csproj|C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\assets\\scripts\\customcharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,31 +67,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SimpleActivatorMenu.cs",
+              "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\Unity-Standard-Assets-master\\Unity-Standard-Assets-master\\Standard Assets\\Utility\\SimpleActivatorMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Unity-Standard-Assets-master\\Unity-Standard-Assets-master\\Standard Assets\\Utility\\SimpleActivatorMenu.cs",
+              "ToolTip": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\Unity-Standard-Assets-master\\Unity-Standard-Assets-master\\Standard Assets\\Utility\\SimpleActivatorMenu.cs",
+              "RelativeToolTip": "Assets\\Unity-Standard-Assets-master\\Unity-Standard-Assets-master\\Standard Assets\\Utility\\SimpleActivatorMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T20:08:40.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForcedReset.cs",
+              "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\Unity-Standard-Assets-master\\Unity-Standard-Assets-master\\Standard Assets\\Utility\\ForcedReset.cs",
+              "RelativeDocumentMoniker": "Assets\\Unity-Standard-Assets-master\\Unity-Standard-Assets-master\\Standard Assets\\Utility\\ForcedReset.cs",
+              "ToolTip": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\Unity-Standard-Assets-master\\Unity-Standard-Assets-master\\Standard Assets\\Utility\\ForcedReset.cs",
+              "RelativeToolTip": "Assets\\Unity-Standard-Assets-master\\Unity-Standard-Assets-master\\Standard Assets\\Utility\\ForcedReset.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T20:06:42.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Indicators.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\Indicators.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Indicators.cs",
               "ToolTip": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\Indicators.cs",
               "RelativeToolTip": "Assets\\scripts\\Indicators.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwC8AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T22:48:01.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ResourceHealth.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\ResourceHealth.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ResourceHealth.cs",
               "ToolTip": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\ResourceHealth.cs",
               "RelativeToolTip": "Assets\\scripts\\ResourceHealth.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCIAAABKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T16:48:49.352Z"
+              "WhenOpened": "2024-09-18T16:48:49.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "GatherResurces.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\GatherResurces.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GatherResurces.cs",
@@ -91,23 +126,25 @@
               "RelativeToolTip": "Assets\\scripts\\GatherResurces.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAYwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:13:55.378Z"
+              "WhenOpened": "2024-09-18T13:13:55.378Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "DragAndDropItem.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\DragAndDropItem.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\DragAndDropItem.cs",
               "ToolTip": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\DragAndDropItem.cs",
               "RelativeToolTip": "Assets\\scripts\\DragAndDropItem.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAAAPIAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T17:18:51.886Z"
+              "WhenOpened": "2024-09-15T17:18:51.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "QuickslotInventory.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\QuickslotInventory.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\QuickslotInventory.cs",
@@ -119,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CustomCharacterController.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\CustomCharacterController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\CustomCharacterController.cs",
@@ -131,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "InventoryManager.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\InventoryManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\InventoryManager.cs",
@@ -139,12 +176,11 @@
               "RelativeToolTip": "Assets\\scripts\\InventoryManager.cs",
               "ViewState": "AQIAAFkAAAAAAAAAAAAgwGgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T14:49:36.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T14:49:36.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ItemScriptableObject.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\ItemScriptableObject.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ItemScriptableObject.cs",
@@ -152,12 +188,11 @@
               "RelativeToolTip": "Assets\\scripts\\ItemScriptableObject.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T08:42:31.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T08:42:31.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ItemCreator.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\ItemCreator.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ItemCreator.cs",
@@ -165,12 +200,11 @@
               "RelativeToolTip": "Assets\\scripts\\ItemCreator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T08:34:39.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T08:34:39.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Item.cs",
@@ -182,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "InventorySlot.cs",
               "DocumentMoniker": "C:\\Users\\rkbla\\OneDrive\\Documents\\GitHub\\Practica-UTM---anul-3---septembrie-2024\\Assets\\scripts\\InventorySlot.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\InventorySlot.cs",
