@@ -401,6 +401,7 @@
 "Assets/Rocks and Boulders 2/Shaders/RotateGameObject.cs"
 "Assets/scripts/CustomCharacterController.cs"
 "Assets/scripts/DragAndDropItem.cs"
+"Assets/scripts/FloatingOject.cs"
 "Assets/scripts/GatherResurces.cs"
 "Assets/scripts/Indicators.cs"
 "Assets/scripts/InventoryManager.cs"

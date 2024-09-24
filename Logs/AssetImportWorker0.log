@@ -15,7 +15,7 @@ C:/Users/rkbla/OneDrive/Documents/GitHub/Practica-UTM---anul-3---septembrie-2024
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59500
+62642
 Successfully changed project path to: C:/Users/rkbla/OneDrive/Documents/GitHub/Practica-UTM---anul-3---septembrie-2024
 C:/Users/rkbla/OneDrive/Documents/GitHub/Practica-UTM---anul-3---septembrie-2024
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/rkbla/OneDrive/Documents/GitHub/Practica-UTM---anul-3---septembrie-2024
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14320]  Target information:
+Player connection [33124]  Target information:
 
-Player connection [14320]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1962891366 [EditorId] 1962891366 [Version] 1048832 [Id] WindowsEditor(7,Blank) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [33124]  * "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 268891364 [EditorId] 268891364 [Version] 1048832 [Id] WindowsEditor(7,Blank) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14320] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14320] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [33124] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33124] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 15.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 19.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
@@ -74,46 +74,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010608 seconds.
-- Loaded All Assemblies, in  0.483 seconds
+Registered in 0.009294 seconds.
+- Loaded All Assemblies, in  0.430 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.342 seconds
-Domain Reload Profiling: 824ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.291 seconds
+Domain Reload Profiling: 719ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (222ms)
-		LoadAssemblies (125ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (129ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (218ms)
-				TypeCache.ScanAssembly (195ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (162ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (343ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (291ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (288ms)
+		SetupLoadedEditorAssemblies (239ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (204ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,7 +122,7 @@ Domain Reload Profiling: 824ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.096 seconds
+- Loaded All Assemblies, in  0.970 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [MODES] ModeService[none].Initialize
@@ -133,907 +133,124 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.199 seconds
-Domain Reload Profiling: 2291ms
-	BeginReloadAssembly (203ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (777ms)
-		LoadAssemblies (502ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (387ms)
-			TypeCache.Refresh (327ms)
-				TypeCache.ScanAssembly (300ms)
-			ScanForSourceGeneratedMonoScriptInfo (40ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1199ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (941ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (729ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 11.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6417 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (4.1 MB). Loaded Objects now: 6884.
-Memory consumption went from 321.4 MB to 317.4 MB.
-Total: 16.657500 ms (FindLiveObjects: 0.727300 ms CreateObjectMapping: 1.562600 ms MarkObjects: 12.937900 ms  DeleteObjects: 1.428000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1087247.921844 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Specular Mirror.prefab
-  artifactKey: Guid(be3a74ee4c9d4d899462b72a41f62728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Specular Mirror.prefab using Guid(be3a74ee4c9d4d899462b72a41f62728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f5e4e724a436c9d298bc9fdde0349d9b') in 1.183718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.518 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-My project
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.705 seconds
-Domain Reload Profiling: 2220ms
-	BeginReloadAssembly (168ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (270ms)
-		LoadAssemblies (336ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1705ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (666ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (501ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 5.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (4.0 MB). Loaded Objects now: 6909.
-Memory consumption went from 273.8 MB to 269.8 MB.
-Total: 5.124300 ms (FindLiveObjects: 0.584200 ms CreateObjectMapping: 0.655300 ms MarkObjects: 2.991100 ms  DeleteObjects: 0.892500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 577.250021 seconds.
-  path: Assets/Horn/a_straight_long_usu_0916115027_refine_fbx/a_straight_long_usu_0916115027_refine.fbx
-  artifactKey: Guid(27bc2aa6fa41fc14f9eee1e32ab54464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horn/a_straight_long_usu_0916115027_refine_fbx/a_straight_long_usu_0916115027_refine.fbx using Guid(27bc2aa6fa41fc14f9eee1e32ab54464) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5535da381aa6e78a059dda652d1f651a') in 0.152500 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Intruments/axe1/stone_age_axe_0919215002_refine_fbx/axe1.fbx
-  artifactKey: Guid(f8a779ed8d7ce2940876b2d6e3e6e27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Intruments/axe1/stone_age_axe_0919215002_refine_fbx/axe1.fbx using Guid(f8a779ed8d7ce2940876b2d6e3e6e27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '948b36171b93a6966a3778e19c22e35f') in 0.028576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Island/Models/Island.fbx
-  artifactKey: Guid(34f3209720a443b58894f291869941b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Island/Models/Island.fbx using Guid(34f3209720a443b58894f291869941b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '003e77d7633a2d8c47d7af2bf649bfef') in 0.019593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Survival Kit Lite/Water_Bottle/Mesh/Bottle.fbx
-  artifactKey: Guid(2d057ad9907906c42814a1f373a67dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Kit Lite/Water_Bottle/Mesh/Bottle.fbx using Guid(2d057ad9907906c42814a1f373a67dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '825cb11f298aeb3694513324c2521427') in 0.020617 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock1D.fbx
-  artifactKey: Guid(983886d38a2dfa14fa5778c136ecbb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock1D.fbx using Guid(983886d38a2dfa14fa5778c136ecbb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '946d0c2bbaaddf6fb89de5df061025fa') in 0.019880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock4B.fbx
-  artifactKey: Guid(553d9789b73b4f44b8326e2e6918d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock4B.fbx using Guid(553d9789b73b4f44b8326e2e6918d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a930a4a4afeb76421a8d28c7143c4092') in 0.022101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock5B.fbx
-  artifactKey: Guid(51368a5ba8a38f740baa9f2a132a2321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock5B.fbx using Guid(51368a5ba8a38f740baa9f2a132a2321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a3bfb10ce4fbfbf69abf084cc5a9c966') in 0.026990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock2.fbx
-  artifactKey: Guid(d11d8096e6b14aa43aa74d862d2d01f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock2.fbx using Guid(d11d8096e6b14aa43aa74d862d2d01f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '458d87c4d5b74ac22d0a97e485c75391') in 0.026865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Source/Models/box.fbx
-  artifactKey: Guid(d5085b45bd6efa148b42ea3dc7ba9a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Source/Models/box.fbx using Guid(d5085b45bd6efa148b42ea3dc7ba9a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'baa8d0582e73ce74a24d0509b11a44b9') in 0.026805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Models/Lighthouse.fbx
-  artifactKey: Guid(c5a48421b9b94cd0bc89db4379a3dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/Environment/Lighthouse/Models/Lighthouse.fbx using Guid(c5a48421b9b94cd0bc89db4379a3dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '11387e6d5eb28f46086d8c1a4cfc1605') in 0.063421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Survival Kit Lite/Baterry/Prefabs/Baterry.prefab
-  artifactKey: Guid(df130d852b0dfe346bc9922ec52a7169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Kit Lite/Baterry/Prefabs/Baterry.prefab using Guid(df130d852b0dfe346bc9922ec52a7169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0fdac08ae783fbf828ef5ac9aa653a8f') in 0.044188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Forst/CTI Runtime Components/CTI Runtime Components BIRP/Prefabs/CTI Windzone BIRP.prefab
-  artifactKey: Guid(eaf383cb55cf38f448529df28e28abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forst/CTI Runtime Components/CTI Runtime Components BIRP/Prefabs/CTI Windzone BIRP.prefab using Guid(eaf383cb55cf38f448529df28e28abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ade612f5f090a27ddc8b8f46d5aeb65f') in 0.001207 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock6C.fbx
-  artifactKey: Guid(f086abf98764ee6488fbf0e5af919765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock6C.fbx using Guid(f086abf98764ee6488fbf0e5af919765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f83a3a6bd79921a4b206151e39fa5a4a') in 0.017221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumHistory.prefab
-  artifactKey: Guid(b2da6b27df236b144b3516ed8e7d36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumHistory.prefab using Guid(b2da6b27df236b144b3516ed8e7d36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'be0b94d736b671f3a48d1b338f6930a1') in 0.001324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFoldout.prefab
-  artifactKey: Guid(1c87ab2ce8b8b304d98fbe9a734b1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFoldout.prefab using Guid(1c87ab2ce8b8b304d98fbe9a734b1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c125a24122deee6bcc75566411efd53b') in 0.001286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock1A.fbx
-  artifactKey: Guid(dfb9706df9ac8264ebf1e58976096256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock1A.fbx using Guid(dfb9706df9ac8264ebf1e58976096256) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '584de4ad11dda1d6f958f51f71d0cf2f') in 0.032356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectPopupField.prefab
-  artifactKey: Guid(48fb043c850cadc4a883b53785e14c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectPopupField.prefab using Guid(48fb043c850cadc4a883b53785e14c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '659ac112025422855cdfb23b8d2a0736') in 0.001104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggleHistory.prefab
-  artifactKey: Guid(5088d0220f0c4df439cf06c5c270eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggleHistory.prefab using Guid(5088d0220f0c4df439cf06c5c270eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '73a4d2226ba10b7581504d155681c177') in 0.001078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIPanel.prefab
-  artifactKey: Guid(daa46a58178a6ad41ae1ddc2dc7f856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIPanel.prefab using Guid(daa46a58178a6ad41ae1ddc2dc7f856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2a821e45d808846b94afba78f135a963') in 0.000994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab
-  artifactKey: Guid(d8c744701b43c864b88e7f8144e19bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab using Guid(d8c744701b43c864b88e7f8144e19bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd1b5ce47498a6bbcdd6b322d5b3e4491') in 0.001532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Intruments/pickiaxe/Stone_age_pickaxe_0919213054_refine_fbx/pickaxe.fbx
-  artifactKey: Guid(8c4fd10b066884b4fb191d2536da8861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Intruments/pickiaxe/Stone_age_pickaxe_0919213054_refine_fbx/pickaxe.fbx using Guid(8c4fd10b066884b4fb191d2536da8861) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a49e4a4ca9babf41d5f9f725e94239a0') in 0.024647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIButton.prefab
-  artifactKey: Guid(f6ce33b91f6ffe54cadacbf4bb112440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIButton.prefab using Guid(f6ce33b91f6ffe54cadacbf4bb112440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9ff0eb026a4c485318465815ada65896') in 0.001107 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/KrisDevelopment/EnviroSpawn_CS/Prefabs/envirospawn_example_terrain_variant.prefab
-  artifactKey: Guid(d470d44e2a65d0649b33a987ae9fd5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KrisDevelopment/EnviroSpawn_CS/Prefabs/envirospawn_example_terrain_variant.prefab using Guid(d470d44e2a65d0649b33a987ae9fd5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '54e7a867e1f60aa26e2effdd81b9e977') in 0.035227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Simple Foods/Prefab Form/FishFilletCooked.prefab
-  artifactKey: Guid(1a8fa040e5c684308b95679dd2c1dcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Foods/Prefab Form/FishFilletCooked.prefab using Guid(1a8fa040e5c684308b95679dd2c1dcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4a247fb9d0b3f4b9ec1877ed05ca716d') in 0.015776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Forst/Conifers [BOTD]/Render Pipeline Support/BIRP/Prefabs/PF Conifer Bare BOTD.prefab
-  artifactKey: Guid(539fa9bc6500e44708e0f7b2c78cbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forst/Conifers [BOTD]/Render Pipeline Support/BIRP/Prefabs/PF Conifer Bare BOTD.prefab using Guid(539fa9bc6500e44708e0f7b2c78cbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '17e40bbf7b2103be2877e8c767057503') in 0.001263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Forst/Conifers [BOTD]/Render Pipeline Support/BIRP/Prefabs/PF Conifer Small BOTD.prefab
-  artifactKey: Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forst/Conifers [BOTD]/Render Pipeline Support/BIRP/Prefabs/PF Conifer Small BOTD.prefab using Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e2d770c843c0b436c265f243813ec799') in 0.001073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Simple Foods/Prefab Form/FishFillet.prefab
-  artifactKey: Guid(d8ee164b0a7fd47458d8294000a8bcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Foods/Prefab Form/FishFillet.prefab using Guid(d8ee164b0a7fd47458d8294000a8bcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e854d30c36cedf162e912aef6ee38703') in 0.016990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Survival Kit Lite/Baterry/Mesh/Baterry.fbx
-  artifactKey: Guid(7bd441cc80169be4e816fb9d5cbf535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Kit Lite/Baterry/Mesh/Baterry.fbx using Guid(7bd441cc80169be4e816fb9d5cbf535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0012e307ddc5ee8972ad06b0653f8cc6') in 0.025746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab
-  artifactKey: Guid(988db55689193434fb0b3b89538f978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab using Guid(988db55689193434fb0b3b89538f978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0608881e468141bc68673c3447550d0d') in 0.001272 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock6B.fbx
-  artifactKey: Guid(3b6e1a04dd0ff3f408c43f0eb6cb7f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock6B.fbx using Guid(3b6e1a04dd0ff3f408c43f0eb6cb7f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9f775e024e17a9b1342e85b37430239b') in 0.020277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Simple Foods/Prefab Form/AppleGreen.prefab
-  artifactKey: Guid(cfdb452e7316b42e894aa2cb2179004f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Foods/Prefab Form/AppleGreen.prefab using Guid(cfdb452e7316b42e894aa2cb2179004f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c1c6fb3a888d0fd5714f8debad3af4bd') in 0.017352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Simple Foods/Prefab Form/DrumstickRaw.prefab
-  artifactKey: Guid(534c1f9f1a45c4f429d1b70046850c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Foods/Prefab Form/DrumstickRaw.prefab using Guid(534c1f9f1a45c4f429d1b70046850c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '62494140b4aafc09f540dc9270d18fe7') in 0.016433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValueTuple.prefab
-  artifactKey: Guid(a2148203dd960814ca5db0c293ceda35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValueTuple.prefab using Guid(a2148203dd960814ca5db0c293ceda35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f8337c4576e61562a64cb800d0d5e250') in 0.000875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prefabs/Log.prefab
-  artifactKey: Guid(240b3dbf77b0e4f4dae888ea64effcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Log.prefab using Guid(240b3dbf77b0e4f4dae888ea64effcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cb425f7a73c946444988a0bf1e7ad01c') in 0.001680 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValuePersistent.prefab
-  artifactKey: Guid(8778e6b26b51c6a4999b94d7cacd8b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValuePersistent.prefab using Guid(8778e6b26b51c6a4999b94d7cacd8b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ead606134499f025c3b335a8d92f5736') in 0.000941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Simple Foods/Prefab Form/Ham.prefab
-  artifactKey: Guid(ba43438e580714421b77702924702e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Foods/Prefab Form/Ham.prefab using Guid(ba43438e580714421b77702924702e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f2720805b35f90ff112ad80b0a9d014f') in 0.016127 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObject.prefab
-  artifactKey: Guid(a87cfaef648f17c41b568e842e068c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObject.prefab using Guid(a87cfaef648f17c41b568e842e068c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '179b54e85a721d0c45c8c7cec6815db4') in 0.001266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectList.prefab
-  artifactKey: Guid(ad83bc56407925d44a77a5bd01cd6783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectList.prefab using Guid(ad83bc56407925d44a77a5bd01cd6783) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6637f8bdbe322c6e1d49e35f123597f8') in 0.001154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Survival Kit Lite/Flashlight/Prefabs/Flashlight.prefab
-  artifactKey: Guid(aeb0d59753e7e99418a1c7604f4808a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Kit Lite/Flashlight/Prefabs/Flashlight.prefab using Guid(aeb0d59753e7e99418a1c7604f4808a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '196aba60e7d218e3b43b589207a920a9') in 0.128951 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab
-  artifactKey: Guid(dc0f88987826e6e48b1fe9c7c2b53a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab using Guid(dc0f88987826e6e48b1fe9c7c2b53a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '26b74085ef23f7496abc6dbbf7d8e6b6') in 0.001063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Survival Kit Lite/Water_Bottle/Prefab/Bottle.prefab
-  artifactKey: Guid(9155a26ed8a2b04438c46f09e38c706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Kit Lite/Water_Bottle/Prefab/Bottle.prefab using Guid(9155a26ed8a2b04438c46f09e38c706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9b1ea54c062435c9b6556111a6a51eb4') in 0.061591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/JMO Assets/WarFX/Mesh/Plane1x1.FBX
-  artifactKey: Guid(9d0862121c112ec4abc229920df08581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/WarFX/Mesh/Plane1x1.FBX using Guid(9d0862121c112ec4abc229920df08581) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8f2e1176f64880f71400aeac9f259688') in 0.017726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock1C.fbx
-  artifactKey: Guid(d1edb567dd56f994cbb75a74e047b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock1C.fbx using Guid(d1edb567dd56f994cbb75a74e047b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a57fb10bdbe710bb6af06af27c0a8ccc') in 0.024704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab
-  artifactKey: Guid(d47f009476100f545971a81ede14c750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab using Guid(d47f009476100f545971a81ede14c750) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1a4df75bc2b5e3080f5ce1754975325b') in 0.001069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Survival Kit Lite/Knife/Prefab/Knife.prefab
-  artifactKey: Guid(7df8587eae91f654cb0590fbd224f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Survival Kit Lite/Knife/Prefab/Knife.prefab using Guid(7df8587eae91f654cb0590fbd224f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '297c79fb59a944c1d3931f246c0c376a') in 0.059677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock6A.fbx
-  artifactKey: Guid(cffd35361a9ea044e8715024748615d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Source/Models/Rock6A.fbx using Guid(cffd35361a9ea044e8715024748615d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '66562dfc32ff799f7668c20c09d70563') in 0.024479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab
-  artifactKey: Guid(cf6cbdd672089a84796e55a21fed1cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab using Guid(cf6cbdd672089a84796e55a21fed1cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6e08683702486d406a9793f2bedfc4f5') in 0.000772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Simple Foods/Prefab Form/Carrot.prefab
-  artifactKey: Guid(6babded354a0947f5816d671762d9241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Foods/Prefab Form/Carrot.prefab using Guid(6babded354a0947f5816d671762d9241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8db5b1e9edde1b1a46d767a5aab8ffb4') in 0.019607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 108
-========================================================================
-Received Import Request.
-  Time since last request: 1.072828 seconds.
-  path: Assets/Forst/Conifers [BOTD]/Render Pipeline Support/BIRP/Prefabs/PF Conifer Tall BOTD.prefab
-  artifactKey: Guid(f41642586885949968180791f012ee81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forst/Conifers [BOTD]/Render Pipeline Support/BIRP/Prefabs/PF Conifer Tall BOTD.prefab using Guid(f41642586885949968180791f012ee81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5e918a4aacfe565650539c947385188a') in 0.000935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KrisDevelopment/EnviroSpawn_CS/Prefabs/pine_opt.prefab
-  artifactKey: Guid(0f7b9a44b513496488a5fd9a622eb430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KrisDevelopment/EnviroSpawn_CS/Prefabs/pine_opt.prefab using Guid(0f7b9a44b513496488a5fd9a622eb430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '80f6408a7e564b158fafdee52622f132') in 0.203288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 52
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup2.prefab
-  artifactKey: Guid(272f6ea372a7343499b5aa612014761f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup2.prefab using Guid(272f6ea372a7343499b5aa612014761f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd2369880b1245af7bea613c312752fb3') in 0.045125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1_grup5.prefab
-  artifactKey: Guid(5bf4c3bd12eed3040a89c71b45c451bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1_grup5.prefab using Guid(5bf4c3bd12eed3040a89c71b45c451bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ef34eae2ea7cd24881709ee8456729d7') in 0.037832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1_grup3.prefab
-  artifactKey: Guid(8193811d456e8954ba1e1cc695b8b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1_grup3.prefab using Guid(8193811d456e8954ba1e1cc695b8b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd25407ddddd291211d00f8e7542e3385') in 0.030104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.497126 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup5.prefab
-  artifactKey: Guid(f696a81957e80df439600b80ea8667ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup5.prefab using Guid(f696a81957e80df439600b80ea8667ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f069f003c3fd06d148a4634978ebdfba') in 0.028365 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1A.prefab
-  artifactKey: Guid(f28e8463f4463eb48afeccffe267583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1A.prefab using Guid(f28e8463f4463eb48afeccffe267583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9c88e8aff7887f81dcaaa1d735067961') in 0.040618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1E.prefab
-  artifactKey: Guid(0241c83bd39a3124fad536563eedb302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1E.prefab using Guid(0241c83bd39a3124fad536563eedb302) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '018fc1c3761bd42652c898d96f1b169a') in 0.041733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1D.prefab
-  artifactKey: Guid(5d4cffe5f1249a046b3bc42bbd99dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1D.prefab using Guid(5d4cffe5f1249a046b3bc42bbd99dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '29a243ee6a2766e052fdc5bd330e3097') in 0.001383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1C.prefab
-  artifactKey: Guid(1679506d96acb1447aa6870479416bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1C.prefab using Guid(1679506d96acb1447aa6870479416bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'be7b98d0d9b17a65abf1c33894beca10') in 0.001272 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1E.prefab
-  artifactKey: Guid(d2db22038a6f9804598cd46453cc7cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rocks and Boulders 2/Rocks/Prefabs/Rock1E.prefab using Guid(d2db22038a6f9804598cd46453cc7cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0a9fcd85607b173f81fe713141379961') in 0.033024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.952 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-My project
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.779 seconds
-Domain Reload Profiling: 3729ms
-	BeginReloadAssembly (239ms)
+- Finished resetting the current domain, in  1.043 seconds
+Domain Reload Profiling: 2012ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (43ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (620ms)
-		LoadAssemblies (628ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (718ms)
+		LoadAssemblies (412ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (106ms)
-			TypeCache.Refresh (22ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (61ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (2780ms)
+		AnalyzeDomain (394ms)
+			TypeCache.Refresh (342ms)
+				TypeCache.ScanAssembly (318ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1043ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (833ms)
+		SetupLoadedEditorAssemblies (821ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (628ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 6.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 96 unused Assets / (3.8 MB). Loaded Objects now: 6914.
-Memory consumption went from 267.7 MB to 263.9 MB.
-Total: 8.645800 ms (FindLiveObjects: 0.639100 ms CreateObjectMapping: 0.696400 ms MarkObjects: 6.071800 ms  DeleteObjects: 1.236500 ms)
-
-Prepare: number of updated asset objects reloaded= 27
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: f4cd93a833e5d2ed528cb2e139079d42 -> 936652403069a5f86d4d12d61b9b5d6c
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0749c487cf0b06410df0b5f556834e0d -> 73136cd7fec362ae9d70875d91f1f287
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.712 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-My project
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.859 seconds
-Domain Reload Profiling: 3566ms
-	BeginReloadAssembly (201ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (411ms)
-		LoadAssemblies (459ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (62ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (31ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (2860ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (777ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (590ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (637ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 7.97 ms, found 3 plugins.
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 10.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (4.2 MB). Loaded Objects now: 6914.
-Memory consumption went from 261.2 MB to 257.1 MB.
-Total: 6.997900 ms (FindLiveObjects: 0.729100 ms CreateObjectMapping: 0.765300 ms MarkObjects: 4.037300 ms  DeleteObjects: 1.464900 ms)
+Unloading 6422 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (4.1 MB). Loaded Objects now: 6894.
+Memory consumption went from 311.1 MB to 307.0 MB.
+Total: 9.125900 ms (FindLiveObjects: 0.796700 ms CreateObjectMapping: 1.016600 ms MarkObjects: 5.526500 ms  DeleteObjects: 1.784500 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/Water.cs: b8c0dab9600ad6570a1eea8ef24aa664 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/PlanarReflection.cs: ceeb4349c304b91fba594321f7d48d1d -> 
-  custom:scripting/monoscript/fileName/WaterBasic.cs: af519581c9b5d0d11a445284aee4adb3 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/WaterBase.cs: 1c71b03efcf2702f16d11531fb6cc346 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: f4cd93a833e5d2ed528cb2e139079d42 -> 936652403069a5f86d4d12d61b9b5d6c
-  custom:scripting/monoscript/fileName/WaterTile.cs: 0447e9d696de6e046464b5cef265f663 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5b0bfda304ce5538c003725d91a85edf -> 73136cd7fec362ae9d70875d91f1f287
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/GerstnerDisplace.cs: 58ca0f7f13edd6f479495063738efd90 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/MeshContainer.cs: cd90c1428e9a22c75e32cf6f5df9eca3 -> 
-  custom:scripting/monoscript/fileName/SpecularLighting.cs: 93c5e1a52fcb85165d00142e35ec4a51 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Displace.cs: debaf57a988ffced341fa9be9a1f467a -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 812.892783 seconds.
-  path: Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab
+  Time since last request: 1148144.976515 seconds.
+  path: Assets/Unity-Standard-Assets-master/Unity-Standard-Assets-master/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab
   artifactKey: Guid(780611a67e8e941a2b3aa96e5915a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab using Guid(780611a67e8e941a2b3aa96e5915a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '84253411fba606dedf505832b17f0f27') in 0.005105 seconds
+Start importing Assets/Unity-Standard-Assets-master/Unity-Standard-Assets-master/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab using Guid(780611a67e8e941a2b3aa96e5915a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fdb0536833825e6f27e458010ce852f5') in 0.132372 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 638.307511 seconds.
+  path: Assets/Scenes/SampleScene_Profiles/WaterFX Profile.asset
+  artifactKey: Guid(6ea2ff82b73e03a43b1d3d2777e6598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene_Profiles/WaterFX Profile.asset using Guid(6ea2ff82b73e03a43b1d3d2777e6598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f899662ce5949444ad7c32f343638fc') in 0.002397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.539457 seconds.
+  path: Assets/Scenes/SampleScene_Profiles/WaterFX Profile.asset
+  artifactKey: Guid(6ea2ff82b73e03a43b1d3d2777e6598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene_Profiles/WaterFX Profile.asset using Guid(6ea2ff82b73e03a43b1d3d2777e6598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '64b7dd4d5c9a544c696194b15f550908') in 0.004726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.492333 seconds.
+  path: Assets/Scenes/SampleScene_Profiles/WaterFX Profile.asset
+  artifactKey: Guid(6ea2ff82b73e03a43b1d3d2777e6598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene_Profiles/WaterFX Profile.asset using Guid(6ea2ff82b73e03a43b1d3d2777e6598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5df2ef207cdb1610ef88c9ad0ba3992e') in 0.005714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 65.194177 seconds.
+  path: Assets/Scenes/SampleScene_Profiles/WaterFX Profile.asset
+  artifactKey: Guid(6ea2ff82b73e03a43b1d3d2777e6598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene_Profiles/WaterFX Profile.asset using Guid(6ea2ff82b73e03a43b1d3d2777e6598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96b16ecec7537f448567a061ae23baf7') in 0.002904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 152.563961 seconds.
+  path: Assets/Scenes/SampleScene_Profiles/WaterFX Profile.asset
+  artifactKey: Guid(6ea2ff82b73e03a43b1d3d2777e6598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene_Profiles/WaterFX Profile.asset using Guid(6ea2ff82b73e03a43b1d3d2777e6598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ad3f2f63c61401800d78d41b931c777b') in 0.002572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.629 seconds
+- Loaded All Assemblies, in  2.672 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [MODES] ModeService[none].Initialize
@@ -1043,110 +260,252 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.167 seconds
-Domain Reload Profiling: 2790ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in 19.383 seconds
+Domain Reload Profiling: 22051ms
+	BeginReloadAssembly (198ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (348ms)
-		LoadAssemblies (391ms)
+	RebuildCommonClasses (138ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (2284ms)
+		LoadAssemblies (2369ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (65ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (34ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (2167ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (19383ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (770ms)
+		SetupLoadedEditorAssemblies (673ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (578ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 10.31 ms, found 3 plugins.
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 6.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (3.8 MB). Loaded Objects now: 6921.
-Memory consumption went from 255.3 MB to 251.5 MB.
-Total: 5.710600 ms (FindLiveObjects: 0.587800 ms CreateObjectMapping: 0.630900 ms MarkObjects: 3.375400 ms  DeleteObjects: 1.114900 ms)
+Unloading 6207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (4.1 MB). Loaded Objects now: 6918.
+Memory consumption went from 265.6 MB to 261.5 MB.
+Total: 7.232800 ms (FindLiveObjects: 0.759200 ms CreateObjectMapping: 0.951200 ms MarkObjects: 3.864900 ms  DeleteObjects: 1.656000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/Water.cs: b8c0dab9600ad6570a1eea8ef24aa664 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/PlanarReflection.cs: ceeb4349c304b91fba594321f7d48d1d -> 
-  custom:scripting/monoscript/fileName/WaterBasic.cs: af519581c9b5d0d11a445284aee4adb3 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/WaterBase.cs: 1c71b03efcf2702f16d11531fb6cc346 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: f4cd93a833e5d2ed528cb2e139079d42 -> 936652403069a5f86d4d12d61b9b5d6c
-  custom:scripting/monoscript/fileName/WaterTile.cs: 0447e9d696de6e046464b5cef265f663 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0749c487cf0b06410df0b5f556834e0d -> 73136cd7fec362ae9d70875d91f1f287
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/GerstnerDisplace.cs: 58ca0f7f13edd6f479495063738efd90 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/MeshContainer.cs: cd90c1428e9a22c75e32cf6f5df9eca3 -> 
-  custom:scripting/monoscript/fileName/SpecularLighting.cs: 93c5e1a52fcb85165d00142e35ec4a51 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/Displace.cs: debaf57a988ffced341fa9be9a1f467a -> 
+========================================================================
+Received Import Request.
+  Time since last request: 554.229253 seconds.
+  path: Assets/scripts/FloatingOject.cs
+  artifactKey: Guid(d3f10c8aff1ba124c8f68e9b58d9e7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/FloatingOject.cs using Guid(d3f10c8aff1ba124c8f68e9b58d9e7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54d5e21922673d5dd2e4fe275f9bcc8a') in 0.020352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.898596 seconds.
+  path: Assets/scripts/FloatingOject.cs
+  artifactKey: Guid(d3f10c8aff1ba124c8f68e9b58d9e7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/FloatingOject.cs using Guid(d3f10c8aff1ba124c8f68e9b58d9e7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8e34d344c230ce9fe81d18e2e24b7241') in 0.002721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 35.578 seconds
+- Loaded All Assemblies, in  0.801 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-System.ArgumentException: There is no a valid NamedBuildTarget for BuildTargetGroup 'PSM'
-  at UnityEditor.Build.NamedBuildTarget.FromBuildTargetGroup (UnityEditor.BuildTargetGroup buildTargetGroup) [0x00159] in <50e19b0ed93a4256b2e454b4acec2d48>:0 
-  at UnityEditor.PlayerSettings.GetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup targetGroup) [0x00000] in <50e19b0ed93a4256b2e454b4acec2d48>:0 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize.GetDefinesList (UnityEditor.BuildTargetGroup group) [0x00000] in C:\Users\rkbla\OneDrive\Documents\GitHub\Practica-UTM---anul-3---septembrie-2024\Assets\Unity-Standard-Assets-master\Unity-Standard-Assets-master\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:134 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize.SetEnabled (System.String defineName, System.Boolean enable, System.Boolean mobile) [0x00018] in C:\Users\rkbla\OneDrive\Documents\GitHub\Practica-UTM---anul-3---septembrie-2024\Assets\Unity-Standard-Assets-master\Unity-Standard-Assets-master\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:106 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize..cctor () [0x00050] in C:\Users\rkbla\OneDrive\Documents\GitHub\Practica-UTM---anul-3---septembrie-2024\Assets\Unity-Standard-Assets-master\Unity-Standard-Assets-master\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.796 seconds
+Domain Reload Profiling: 4592ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (503ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (52ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (3797ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (893ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (658ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 7.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (4.1 MB). Loaded Objects now: 6935.
+Memory consumption went from 265.6 MB to 261.5 MB.
+Total: 6.651300 ms (FindLiveObjects: 0.644700 ms CreateObjectMapping: 0.738100 ms MarkObjects: 4.050300 ms  DeleteObjects: 1.217400 ms)
 
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\rkbla\OneDrive\Documents\GitHub\Practica-UTM---anul-3---septembrie-2024\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/FloatingOject.cs: a5e4c336db785ec020a40ceec3ee2b7e -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0de4c35ee94e10a2e22dba5971d69379 -> 8412c3641e3744b766c216dece504791
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.554 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.001 seconds
+Domain Reload Profiling: 2551ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (360ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2001ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (528ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (4.1 MB). Loaded Objects now: 6951.
+Memory consumption went from 265.9 MB to 261.8 MB.
+Total: 7.722400 ms (FindLiveObjects: 0.857400 ms CreateObjectMapping: 0.764700 ms MarkObjects: 5.017200 ms  DeleteObjects: 1.081400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/FloatingOject.cs: a5e4c336db785ec020a40ceec3ee2b7e -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0de4c35ee94e10a2e22dba5971d69379 -> 8412c3641e3744b766c216dece504791
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.566 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\rkbla\OneDrive\Documents\GitHub\Practica-UTM---anul-3---septembrie-2024\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
   at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <50e19b0ed93a4256b2e454b4acec2d48>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <50e19b0ed93a4256b2e454b4acec2d48>:0 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
 UnityEditor.Tools:OnEnable ()
 UnityEngine.ScriptableObject:CreateInstance (System.Type)
 UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
@@ -1165,372 +524,63 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 27.257 seconds
-Domain Reload Profiling: 62834ms
-	BeginReloadAssembly (15474ms)
+- Finished resetting the current domain, in  1.730 seconds
+Domain Reload Profiling: 2291ms
+	BeginReloadAssembly (175ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (975ms)
-	RebuildCommonClasses (924ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (19083ms)
-		LoadAssemblies (33052ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (372ms)
-			TypeCache.Refresh (302ms)
-				TypeCache.ScanAssembly (260ms)
-			ScanForSourceGeneratedMonoScriptInfo (48ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (27258ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (928ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (701ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 7.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6226 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (7.4 MB). Loaded Objects now: 7040.
-Memory consumption went from 270.7 MB to 263.4 MB.
-Total: 10.517500 ms (FindLiveObjects: 0.625300 ms CreateObjectMapping: 0.732600 ms MarkObjects: 5.795800 ms  DeleteObjects: 3.361600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/MobileInput.cs: dfa415439f330b7749adb2ef7567c3e4 -> 
-  custom:scripting/monoscript/fileName/Water.cs: 7eab78d43bc5509c0c496cd466f90eca -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/PlanarReflectionEditor.cs: ed94d3b3f05fd5fc975e024a9f9d2d2b -> 
-  custom:scripting/monoscript/fileName/ActivateTrigger.cs: c94789aa9e8004cad1e54b531012d83a -> 
-  custom:scripting/monoscript/fileName/CarAIControl.cs: d1473508a61a7c22fa581f303c83146a -> 
-  custom:scripting/monoscript/fileName/WaypointCircuit.cs: 54e952fb6b763eca02bad0728655deb7 -> 
-  custom:scripting/monoscript/fileName/LandingGear.cs: 7fb64bfd9e273053d29150adadac6d16 -> 
-  custom:scripting/monoscript/fileName/SmokeParticles.cs: 5e47247cb641abf97e56ce594b12e84f -> 
-  custom:scripting/monoscript/fileName/PlanarReflection.cs: aa3b1e4cba76185de1910c74bd27b455 -> 
-  custom:scripting/monoscript/fileName/WaterBasic.cs: 4ee385e062c88449a41765c42c527501 -> 
-  custom:scripting/monoscript/fileName/WaterBaseEditor.cs: 716a5ceb078ae0e05ad78839c549060b -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/AeroplaneAudio.cs: f7f5e167200e1cab79cb101583c0f507 -> 
-  custom:scripting/monoscript/fileName/TouchPad.cs: 71af049078ebd826d8919ba90a4412d3 -> 
-  custom:scripting/monoscript/fileName/RigidbodyFirstPersonController.cs: 303e518c916e9011e00a96a1504f3543 -> 
-  custom:scripting/monoscript/fileName/Ball.cs: c405c7c486f8c791b69a838bad56931d -> 
-  custom:scripting/monoscript/fileName/ExtinguishableParticleSystem.cs: e4f67cb5c21ad9e1a057261e7518ba44 -> 
-  custom:scripting/monoscript/fileName/AICharacterControl.cs: a5d08ec5093687a59363b0e1fe1fbbf8 -> 
-  custom:scripting/monoscript/fileName/DynamicShadowSettings.cs: 325596f0baf85da0d965fea14b11bb8b -> 
-  custom:scripting/monoscript/fileName/CurveControlledBob.cs: 90e86216bd5f53d9fe3087ae7bf389f1 -> 
-  custom:scripting/monoscript/fileName/AutoMobileShaderSwitch.cs: e55bd94d791efdfd8def29f52dc8447b -> 
-  custom:scripting/monoscript/fileName/AlphaButtonClickMask.cs: 0e8b09d4b0d299b77424ad90e670a9d2 -> 
-  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: bd8be3102d90dc7625e90c699b9ce143 -> 
-  custom:scripting/monoscript/fileName/TimedObjectActivator.cs: 25495e754d3d277d8e763837b64bf2ba -> 
-  custom:scripting/monoscript/fileName/AutoCam.cs: 464f4516cbb6dd097ab3ec4329345f37 -> 
-  custom:scripting/monoscript/fileName/WaterBase.cs: cc9a7dbd9e82c0f8f8d96b82a0fca6c8 -> 
-  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: 78e2e6573322fcc55af450266306de6e -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCharacter.cs: 2bfe283923f980e64bf82c42cd6513ec -> 
-  custom:scripting/monoscript/fileName/WaterEditorUtility.cs: 9e04db570781127f08ded71ac3abac1d -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/TargetFieldOfView.cs: eb0697c079ff84905b5591e4ef59be1b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AeroplaneAiControl.cs: 277de552b2c5a95e522df981fffd9b25 -> 
-  custom:scripting/monoscript/fileName/CameraRefocus.cs: 2faffd18ce20d29396a11c7a26d00f0b -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/ExplosionFireAndDebris.cs: a4e22a51483f0fec49be7cdf8a5ea062 -> 
-  custom:scripting/monoscript/fileName/ForcedReset.cs: 5e1472355f934ab888fa0985eb71dfb5 -> 
-  custom:scripting/monoscript/fileName/AeroplaneControlSurfaceAnimator.cs: 21c229dceda1b70b2049402b7e25af42 -> 
-  custom:scripting/monoscript/fileName/VirtualInput.cs: e290279061a851c625fb61c863776a94 -> 
-  custom:scripting/monoscript/fileName/WaterHoseParticles.cs: 89cf57233bfde0071976179e25861599 -> 
-  custom:scripting/monoscript/fileName/SimpleActivatorMenu.cs: 6dc7b15cc079b5666ea19a4bb40b684f -> 
-  custom:scripting/monoscript/fileName/PlatformerCharacter2D.cs: 4addaf30ee88339a30951d7a983b30f0 -> 
-  custom:scripting/monoscript/fileName/FPSCounter.cs: 18dc6752cae0b5546ca4b2dc0c7741f5 -> 
-  custom:scripting/monoscript/fileName/LerpControlledBob.cs: e3f8ea665fb8f4533c1004d43455b6e7 -> 
-  custom:scripting/monoscript/fileName/LookatTarget.cs: 9e63da8ebe26cdcba5195c51afad6d64 -> 
-  custom:scripting/monoscript/fileName/CarController.cs: 3071e90b0c01a2ded2b9094f4cf11779 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/BrakeLight.cs: d9c43423d60272a1a08a7f617ec6b90f -> 
-  custom:scripting/monoscript/fileName/FollowTarget.cs: 93be4c02dc2bee8af48e06a6c7c2e042 -> 
-  custom:scripting/monoscript/fileName/Joystick.cs: b54db918c885c01940a25acda1acd280 -> 
-  custom:scripting/monoscript/fileName/BallUserControl.cs: 9743cadab53965ad5e73baf18187d830 -> 
-  custom:scripting/monoscript/fileName/FreeLookCam.cs: ec7e447c8320099965c5f3bd81473d66 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 5d3efb567ad71e87f51e0fd815a96d03 -> 936652403069a5f86d4d12d61b9b5d6c
-  custom:scripting/monoscript/fileName/WaterTile.cs: dbace3413718cb36e8c6c050d77ebcd5 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8412c3641e3744b766c216dece504791 -> 73136cd7fec362ae9d70875d91f1f287
-  custom:scripting/monoscript/fileName/GerstnerDisplaceEditor.cs: 72d35297308bd299cac852a206b722ae -> 
-  custom:scripting/monoscript/fileName/Platformer2DUserControl.cs: a50f723067caa1c8938ae9953000bd49 -> 
-  custom:scripting/monoscript/fileName/WheelEffects.cs: 3e8d23c4da089aaf7c65f9593b57f775 -> 
-  custom:scripting/monoscript/fileName/InputAxisScrollbar.cs: ce23cb16d4e46181bfcdc67e0abad940 -> 
-  custom:scripting/monoscript/fileName/AeroplaneUserControl4Axis.cs: 4f06f4ef700dd439a594dbbc036b9fa3 -> 
-  custom:scripting/monoscript/fileName/ParticleSystemDestroyer.cs: e9db870dc4c33b83d7965fdc6fe482f5 -> 
-  custom:scripting/monoscript/fileName/ExplosionPhysicsForce.cs: e3d1ad6abc1a34f5a9fd7c32b23969ac -> 
-  custom:scripting/monoscript/fileName/CrossPlatformInputInitialize.cs: 957a994b43bb271adc778fbadd721ef1 -> 
-  custom:scripting/monoscript/fileName/CrossPlatformInputManager.cs: a6a27da3c2613aab4b889711813fe29f -> 
-  custom:scripting/monoscript/fileName/DragRigidbody.cs: af6487145851a9f92f2704a8e0948d6e -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/GerstnerDisplace.cs: e2d8877fe7b5bdf130576570d94fa388 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/Camera2DFollow.cs: 36b0e7285d6f6f90fc4dbbcbf9fd584d -> 
-  custom:scripting/monoscript/fileName/TiltInput.cs: 298cab2ca5ef1ae659d7256d2dbeb1ed -> 
-  custom:scripting/monoscript/fileName/SmoothFollow.cs: a07fd7df12bc7fba739834867140f167 -> 
-  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
-  custom:scripting/monoscript/fileName/CarUserControl.cs: 0f9d03ad84d4a18a367e665baa6a78af -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpecularLightingEditor.cs: 8629f86e1ee9f2e08dfb5eddbab71070 -> 
-  custom:scripting/monoscript/fileName/StandaloneInput.cs: 8cfda68f78df3b7dc3040fdb29fc2cd1 -> 
-  custom:scripting/monoscript/fileName/MeshContainer.cs: dcbbe4435893f064bee03dccdcafe2df -> 
-  custom:scripting/monoscript/fileName/CarSelfRighting.cs: 88db1e19f2bf5b2535e6ed223cef213a -> 
-  custom:scripting/monoscript/fileName/JetParticleEffect.cs: 9e1d229fcfd5effa5ec55873fa75e9c8 -> 
-  custom:scripting/monoscript/fileName/FOVKick.cs: c76896347c620802192507d0a92d05a3 -> 
-  custom:scripting/monoscript/fileName/CameraFollow.cs: a051181a8942461b86eabf953d0b997b -> 
-  custom:scripting/monoscript/fileName/WaypointProgressTracker.cs: fb6262ee8f74f6dc3758b58e5ee18955 -> 
-  custom:scripting/monoscript/fileName/SimpleMouseRotator.cs: 9ea47a4777a3a00316a90faf1a6f313d -> 
-  custom:scripting/monoscript/fileName/ParticleSystemMultiplier.cs: 8c5eeca5294173db54ffca6ac53ee34e -> 
-  custom:scripting/monoscript/fileName/Explosive.cs: a3e9e45cef7576efad31592121584452 -> 
-  custom:scripting/monoscript/fileName/CarAudio.cs: aa1ee0763de0da10633dea358d636dfa -> 
-  custom:scripting/monoscript/fileName/TimedObjectDestructor.cs: bce1a4bbcc9460c16af8171b93c92130 -> 
-  custom:scripting/monoscript/fileName/MobileControlRig.cs: 3524fff44c8126dee0548f9b6ab19d53 -> 
-  custom:scripting/monoscript/fileName/Mudguard.cs: 9b7eeb35af5a40c2a662dfedda0a637e -> 
-  custom:scripting/monoscript/fileName/SpecularLighting.cs: cc1fdcf93733163494cee4a5190a39b5 -> 
-  custom:scripting/monoscript/fileName/HandHeldCam.cs: 102feb5496df0ea213d53b52e4ec816a -> 
-  custom:scripting/monoscript/fileName/EventSystemChecker.cs: 7bccd0826881aa97be03516a055e060b -> 
-  custom:scripting/monoscript/fileName/AeroplaneUserControl2Axis.cs: 14515c9b506eace41dcfe397f462d26c -> 
-  custom:scripting/monoscript/fileName/MouseLook.cs: 1413bf4c672f5aacfd2b457b6378eea6 -> 
-  custom:scripting/monoscript/fileName/ButtonHandler.cs: e27d3f4c7505c394dad450c78dd6faf1 -> 
-  custom:scripting/monoscript/fileName/AeroplaneController.cs: e802841375d991beb572904117152dec -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/AfterburnerPhysicsForce.cs: d44e6931e774df3223b064db5fc768f4 -> 
-  custom:scripting/monoscript/fileName/AeroplanePropellerAnimator.cs: 84bd209e8ba18a6550a24cd77f1667cd -> 
-  custom:scripting/monoscript/fileName/Displace.cs: 25670e6916f8c66468d84ca201f3cf40 -> 
-  custom:scripting/monoscript/fileName/AxisTouchButton.cs: 31be56f36d53422fd33aa4f9a14e630a -> 
-  custom:scripting/monoscript/fileName/Suspension.cs: d0fad4d3b288fb340503b94a9a30ea10 -> 
-  custom:scripting/monoscript/fileName/FireLight.cs: b74a4fa8a2202d735c0c1ea18b63e4e3 -> 
-  custom:scripting/monoscript/fileName/FirstPersonController.cs: 4fa5841f7a7dfdfcf291c3718c4ae3a2 -> 
-  custom:scripting/monoscript/fileName/ProtectCameraFromWallClip.cs: ef7fc4ea61944018670342bc7b71227c -> 
-  custom:scripting/monoscript/fileName/SkidTrail.cs: 95010d8327f7ec969197e1e10813347d -> 
-  custom:scripting/monoscript/fileName/PlatformSpecificContent.cs: 5abb8e8ef7a06ce1842fe9ff26eac2dd -> 
-  custom:scripting/monoscript/fileName/AutoMoveAndRotate.cs: ca0e96f72f32239308122375a052b980 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonUserControl.cs: e55dad970175c9485c04ecbb87a3ac80 -> 
-  custom:scripting/monoscript/fileName/Hose.cs: c8fd2412a0d6a1fdbc6b0e572bd14e28 -> 
-  custom:scripting/monoscript/fileName/HeadBob.cs: fde5c6524c06827dce9419ce121f4f6b -> 
-  custom:scripting/monoscript/fileName/ObjectResetter.cs: 037abf2de53ab0026436c32f7a941658 -> 
-  custom:scripting/monoscript/fileName/Restarter.cs: f04be04f6655050adbb7cd8ed5faf27f -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.996 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-System.ArgumentException: There is no a valid NamedBuildTarget for BuildTargetGroup 'PSM'
-  at UnityEditor.Build.NamedBuildTarget.FromBuildTargetGroup (UnityEditor.BuildTargetGroup buildTargetGroup) [0x00159] in <50e19b0ed93a4256b2e454b4acec2d48>:0 
-  at UnityEditor.PlayerSettings.GetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup targetGroup) [0x00000] in <50e19b0ed93a4256b2e454b4acec2d48>:0 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize.GetDefinesList (UnityEditor.BuildTargetGroup group) [0x00000] in C:\Users\rkbla\OneDrive\Documents\GitHub\Practica-UTM---anul-3---septembrie-2024\Assets\Unity-Standard-Assets-master\Unity-Standard-Assets-master\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:134 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize.SetEnabled (System.String defineName, System.Boolean enable, System.Boolean mobile) [0x00018] in C:\Users\rkbla\OneDrive\Documents\GitHub\Practica-UTM---anul-3---septembrie-2024\Assets\Unity-Standard-Assets-master\Unity-Standard-Assets-master\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:106 
-  at UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize..cctor () [0x00050] in C:\Users\rkbla\OneDrive\Documents\GitHub\Practica-UTM---anul-3---septembrie-2024\Assets\Unity-Standard-Assets-master\Unity-Standard-Assets-master\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-My project
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.598 seconds
-Domain Reload Profiling: 3587ms
-	BeginReloadAssembly (307ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (557ms)
-		LoadAssemblies (624ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (359ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (94ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (50ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (2598ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1730ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (863ms)
+		SetupLoadedEditorAssemblies (697ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (656ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+		AwakeInstancesAfterBackupRestoration (16ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 10.30 ms, found 3 plugins.
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (7.4 MB). Loaded Objects now: 7056.
-Memory consumption went from 270.5 MB to 263.1 MB.
-Total: 9.153200 ms (FindLiveObjects: 0.618900 ms CreateObjectMapping: 0.688800 ms MarkObjects: 4.686500 ms  DeleteObjects: 3.157600 ms)
+Unloading 6209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (4.1 MB). Loaded Objects now: 6967.
+Memory consumption went from 265.9 MB to 261.8 MB.
+Total: 6.380200 ms (FindLiveObjects: 0.884700 ms CreateObjectMapping: 0.734900 ms MarkObjects: 3.394900 ms  DeleteObjects: 1.364400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/MobileInput.cs: dfa415439f330b7749adb2ef7567c3e4 -> 
-  custom:scripting/monoscript/fileName/Water.cs: 7eab78d43bc5509c0c496cd466f90eca -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/PlanarReflectionEditor.cs: ed94d3b3f05fd5fc975e024a9f9d2d2b -> 
-  custom:scripting/monoscript/fileName/ActivateTrigger.cs: c94789aa9e8004cad1e54b531012d83a -> 
-  custom:scripting/monoscript/fileName/CarAIControl.cs: d1473508a61a7c22fa581f303c83146a -> 
-  custom:scripting/monoscript/fileName/WaypointCircuit.cs: 54e952fb6b763eca02bad0728655deb7 -> 
-  custom:scripting/monoscript/fileName/LandingGear.cs: 7fb64bfd9e273053d29150adadac6d16 -> 
-  custom:scripting/monoscript/fileName/SmokeParticles.cs: 5e47247cb641abf97e56ce594b12e84f -> 
-  custom:scripting/monoscript/fileName/PlanarReflection.cs: aa3b1e4cba76185de1910c74bd27b455 -> 
-  custom:scripting/monoscript/fileName/WaterBasic.cs: 4ee385e062c88449a41765c42c527501 -> 
-  custom:scripting/monoscript/fileName/WaterBaseEditor.cs: 716a5ceb078ae0e05ad78839c549060b -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/AeroplaneAudio.cs: f7f5e167200e1cab79cb101583c0f507 -> 
-  custom:scripting/monoscript/fileName/TouchPad.cs: 71af049078ebd826d8919ba90a4412d3 -> 
-  custom:scripting/monoscript/fileName/RigidbodyFirstPersonController.cs: 303e518c916e9011e00a96a1504f3543 -> 
-  custom:scripting/monoscript/fileName/Ball.cs: c405c7c486f8c791b69a838bad56931d -> 
-  custom:scripting/monoscript/fileName/ExtinguishableParticleSystem.cs: e4f67cb5c21ad9e1a057261e7518ba44 -> 
-  custom:scripting/monoscript/fileName/AICharacterControl.cs: a5d08ec5093687a59363b0e1fe1fbbf8 -> 
-  custom:scripting/monoscript/fileName/DynamicShadowSettings.cs: 325596f0baf85da0d965fea14b11bb8b -> 
-  custom:scripting/monoscript/fileName/CurveControlledBob.cs: 90e86216bd5f53d9fe3087ae7bf389f1 -> 
-  custom:scripting/monoscript/fileName/AutoMobileShaderSwitch.cs: e55bd94d791efdfd8def29f52dc8447b -> 
-  custom:scripting/monoscript/fileName/AlphaButtonClickMask.cs: 0e8b09d4b0d299b77424ad90e670a9d2 -> 
-  custom:scripting/monoscript/fileName/AbstractTargetFollower.cs: bd8be3102d90dc7625e90c699b9ce143 -> 
-  custom:scripting/monoscript/fileName/TimedObjectActivator.cs: 25495e754d3d277d8e763837b64bf2ba -> 
-  custom:scripting/monoscript/fileName/AutoCam.cs: 464f4516cbb6dd097ab3ec4329345f37 -> 
-  custom:scripting/monoscript/fileName/WaterBase.cs: cc9a7dbd9e82c0f8f8d96b82a0fca6c8 -> 
-  custom:scripting/monoscript/fileName/PivotBasedCameraRig.cs: 78e2e6573322fcc55af450266306de6e -> 
-  custom:scripting/monoscript/fileName/ThirdPersonCharacter.cs: 2bfe283923f980e64bf82c42cd6513ec -> 
-  custom:scripting/monoscript/fileName/WaterEditorUtility.cs: 9e04db570781127f08ded71ac3abac1d -> 
+  custom:scripting/monoscript/fileName/FloatingOject.cs: a5e4c336db785ec020a40ceec3ee2b7e -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/TargetFieldOfView.cs: eb0697c079ff84905b5591e4ef59be1b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AeroplaneAiControl.cs: 277de552b2c5a95e522df981fffd9b25 -> 
-  custom:scripting/monoscript/fileName/CameraRefocus.cs: 2faffd18ce20d29396a11c7a26d00f0b -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/ExplosionFireAndDebris.cs: a4e22a51483f0fec49be7cdf8a5ea062 -> 
-  custom:scripting/monoscript/fileName/ForcedReset.cs: 5e1472355f934ab888fa0985eb71dfb5 -> 
-  custom:scripting/monoscript/fileName/AeroplaneControlSurfaceAnimator.cs: 21c229dceda1b70b2049402b7e25af42 -> 
-  custom:scripting/monoscript/fileName/VirtualInput.cs: e290279061a851c625fb61c863776a94 -> 
-  custom:scripting/monoscript/fileName/WaterHoseParticles.cs: 89cf57233bfde0071976179e25861599 -> 
-  custom:scripting/monoscript/fileName/SimpleActivatorMenu.cs: 6dc7b15cc079b5666ea19a4bb40b684f -> 
-  custom:scripting/monoscript/fileName/PlatformerCharacter2D.cs: 4addaf30ee88339a30951d7a983b30f0 -> 
-  custom:scripting/monoscript/fileName/FPSCounter.cs: 18dc6752cae0b5546ca4b2dc0c7741f5 -> 
-  custom:scripting/monoscript/fileName/LerpControlledBob.cs: e3f8ea665fb8f4533c1004d43455b6e7 -> 
-  custom:scripting/monoscript/fileName/LookatTarget.cs: 9e63da8ebe26cdcba5195c51afad6d64 -> 
-  custom:scripting/monoscript/fileName/CarController.cs: 3071e90b0c01a2ded2b9094f4cf11779 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/BrakeLight.cs: d9c43423d60272a1a08a7f617ec6b90f -> 
-  custom:scripting/monoscript/fileName/FollowTarget.cs: 93be4c02dc2bee8af48e06a6c7c2e042 -> 
-  custom:scripting/monoscript/fileName/Joystick.cs: b54db918c885c01940a25acda1acd280 -> 
-  custom:scripting/monoscript/fileName/BallUserControl.cs: 9743cadab53965ad5e73baf18187d830 -> 
-  custom:scripting/monoscript/fileName/FreeLookCam.cs: ec7e447c8320099965c5f3bd81473d66 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 5d3efb567ad71e87f51e0fd815a96d03 -> 936652403069a5f86d4d12d61b9b5d6c
-  custom:scripting/monoscript/fileName/WaterTile.cs: dbace3413718cb36e8c6c050d77ebcd5 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8412c3641e3744b766c216dece504791 -> 73136cd7fec362ae9d70875d91f1f287
-  custom:scripting/monoscript/fileName/GerstnerDisplaceEditor.cs: 72d35297308bd299cac852a206b722ae -> 
-  custom:scripting/monoscript/fileName/Platformer2DUserControl.cs: a50f723067caa1c8938ae9953000bd49 -> 
-  custom:scripting/monoscript/fileName/WheelEffects.cs: 3e8d23c4da089aaf7c65f9593b57f775 -> 
-  custom:scripting/monoscript/fileName/InputAxisScrollbar.cs: ce23cb16d4e46181bfcdc67e0abad940 -> 
-  custom:scripting/monoscript/fileName/AeroplaneUserControl4Axis.cs: 4f06f4ef700dd439a594dbbc036b9fa3 -> 
-  custom:scripting/monoscript/fileName/ParticleSystemDestroyer.cs: e9db870dc4c33b83d7965fdc6fe482f5 -> 
-  custom:scripting/monoscript/fileName/ExplosionPhysicsForce.cs: e3d1ad6abc1a34f5a9fd7c32b23969ac -> 
-  custom:scripting/monoscript/fileName/CrossPlatformInputInitialize.cs: 957a994b43bb271adc778fbadd721ef1 -> 
-  custom:scripting/monoscript/fileName/CrossPlatformInputManager.cs: a6a27da3c2613aab4b889711813fe29f -> 
-  custom:scripting/monoscript/fileName/DragRigidbody.cs: af6487145851a9f92f2704a8e0948d6e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0de4c35ee94e10a2e22dba5971d69379 -> 8412c3641e3744b766c216dece504791
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/GerstnerDisplace.cs: e2d8877fe7b5bdf130576570d94fa388 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/Camera2DFollow.cs: 36b0e7285d6f6f90fc4dbbcbf9fd584d -> 
-  custom:scripting/monoscript/fileName/TiltInput.cs: 298cab2ca5ef1ae659d7256d2dbeb1ed -> 
-  custom:scripting/monoscript/fileName/SmoothFollow.cs: a07fd7df12bc7fba739834867140f167 -> 
   custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
-  custom:scripting/monoscript/fileName/CarUserControl.cs: 0f9d03ad84d4a18a367e665baa6a78af -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SpecularLightingEditor.cs: 8629f86e1ee9f2e08dfb5eddbab71070 -> 
-  custom:scripting/monoscript/fileName/StandaloneInput.cs: 8cfda68f78df3b7dc3040fdb29fc2cd1 -> 
-  custom:scripting/monoscript/fileName/MeshContainer.cs: dcbbe4435893f064bee03dccdcafe2df -> 
-  custom:scripting/monoscript/fileName/CarSelfRighting.cs: 88db1e19f2bf5b2535e6ed223cef213a -> 
-  custom:scripting/monoscript/fileName/JetParticleEffect.cs: 9e1d229fcfd5effa5ec55873fa75e9c8 -> 
-  custom:scripting/monoscript/fileName/FOVKick.cs: c76896347c620802192507d0a92d05a3 -> 
-  custom:scripting/monoscript/fileName/CameraFollow.cs: a051181a8942461b86eabf953d0b997b -> 
-  custom:scripting/monoscript/fileName/WaypointProgressTracker.cs: fb6262ee8f74f6dc3758b58e5ee18955 -> 
-  custom:scripting/monoscript/fileName/SimpleMouseRotator.cs: 9ea47a4777a3a00316a90faf1a6f313d -> 
-  custom:scripting/monoscript/fileName/ParticleSystemMultiplier.cs: 8c5eeca5294173db54ffca6ac53ee34e -> 
-  custom:scripting/monoscript/fileName/Explosive.cs: a3e9e45cef7576efad31592121584452 -> 
-  custom:scripting/monoscript/fileName/CarAudio.cs: aa1ee0763de0da10633dea358d636dfa -> 
-  custom:scripting/monoscript/fileName/TimedObjectDestructor.cs: bce1a4bbcc9460c16af8171b93c92130 -> 
-  custom:scripting/monoscript/fileName/MobileControlRig.cs: 3524fff44c8126dee0548f9b6ab19d53 -> 
-  custom:scripting/monoscript/fileName/Mudguard.cs: 9b7eeb35af5a40c2a662dfedda0a637e -> 
-  custom:scripting/monoscript/fileName/SpecularLighting.cs: cc1fdcf93733163494cee4a5190a39b5 -> 
-  custom:scripting/monoscript/fileName/HandHeldCam.cs: 102feb5496df0ea213d53b52e4ec816a -> 
-  custom:scripting/monoscript/fileName/EventSystemChecker.cs: 7bccd0826881aa97be03516a055e060b -> 
-  custom:scripting/monoscript/fileName/AeroplaneUserControl2Axis.cs: 14515c9b506eace41dcfe397f462d26c -> 
-  custom:scripting/monoscript/fileName/MouseLook.cs: 1413bf4c672f5aacfd2b457b6378eea6 -> 
-  custom:scripting/monoscript/fileName/ButtonHandler.cs: e27d3f4c7505c394dad450c78dd6faf1 -> 
-  custom:scripting/monoscript/fileName/AeroplaneController.cs: e802841375d991beb572904117152dec -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/AfterburnerPhysicsForce.cs: d44e6931e774df3223b064db5fc768f4 -> 
-  custom:scripting/monoscript/fileName/AeroplanePropellerAnimator.cs: 84bd209e8ba18a6550a24cd77f1667cd -> 
-  custom:scripting/monoscript/fileName/Displace.cs: 25670e6916f8c66468d84ca201f3cf40 -> 
-  custom:scripting/monoscript/fileName/AxisTouchButton.cs: 31be56f36d53422fd33aa4f9a14e630a -> 
-  custom:scripting/monoscript/fileName/Suspension.cs: d0fad4d3b288fb340503b94a9a30ea10 -> 
-  custom:scripting/monoscript/fileName/FireLight.cs: b74a4fa8a2202d735c0c1ea18b63e4e3 -> 
-  custom:scripting/monoscript/fileName/FirstPersonController.cs: 4fa5841f7a7dfdfcf291c3718c4ae3a2 -> 
-  custom:scripting/monoscript/fileName/ProtectCameraFromWallClip.cs: ef7fc4ea61944018670342bc7b71227c -> 
-  custom:scripting/monoscript/fileName/SkidTrail.cs: 95010d8327f7ec969197e1e10813347d -> 
-  custom:scripting/monoscript/fileName/PlatformSpecificContent.cs: 5abb8e8ef7a06ce1842fe9ff26eac2dd -> 
-  custom:scripting/monoscript/fileName/AutoMoveAndRotate.cs: ca0e96f72f32239308122375a052b980 -> 
-  custom:scripting/monoscript/fileName/ThirdPersonUserControl.cs: e55dad970175c9485c04ecbb87a3ac80 -> 
-  custom:scripting/monoscript/fileName/Hose.cs: c8fd2412a0d6a1fdbc6b0e572bd14e28 -> 
-  custom:scripting/monoscript/fileName/HeadBob.cs: fde5c6524c06827dce9419ce121f4f6b -> 
-  custom:scripting/monoscript/fileName/ObjectResetter.cs: 037abf2de53ab0026436c32f7a941658 -> 
-  custom:scripting/monoscript/fileName/Restarter.cs: f04be04f6655050adbb7cd8ed5faf27f -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1052.988812 seconds.
-  path: Assets/Unity-Standard-Assets-master/Unity-Standard-Assets-master/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab
-  artifactKey: Guid(bcae914220acd4907840a029bb9d9aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Unity-Standard-Assets-master/Standard Assets/Environment/Water/Water/Prefabs/WaterProNighttime.prefab using Guid(bcae914220acd4907840a029bb9d9aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7419ce3709b0e5b172f30593476a98f0') in 0.260217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 396.166255 seconds.
-  path: Assets/Unity-Standard-Assets-master/Unity-Standard-Assets-master/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab
-  artifactKey: Guid(780611a67e8e941a2b3aa96e5915a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity-Standard-Assets-master/Unity-Standard-Assets-master/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab using Guid(780611a67e8e941a2b3aa96e5915a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e865560bb06ee9794d7d0a450acd952d') in 0.024703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
