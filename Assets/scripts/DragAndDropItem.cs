@@ -114,7 +114,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         TMP_Text itemAmountText = newSlot.itemAmountText;
         if (item == null)
         {
-            if (oldSlot.item.MaximumAmount > 1 && oldSlot.amount > 1)
+            if (oldSlot.item.maximumAmount > 1 && oldSlot.amount > 1)
             {
                 if (Input.GetKey(KeyCode.LeftShift))
                 {
@@ -148,7 +148,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
             {
                 if (Input.GetKey(KeyCode.LeftShift) && oldSlot.amount > 1)
                 {
-                    if (Mathf.CeilToInt((float)oldSlot.amount / 2) < newSlot.item.MaximumAmount - newSlot.amount)
+                    if (Mathf.CeilToInt((float)oldSlot.amount / 2) < newSlot.item.maximumAmount - newSlot.amount)
                     {
                         newSlot.amount += Mathf.CeilToInt((float)oldSlot.amount / 2);
                         newSlot.itemAmountText.text = newSlot.amount.ToString();
@@ -158,8 +158,8 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
                     }
                     else
                     {
-                        int difference = newSlot.item.MaximumAmount - newSlot.amount;
-                        newSlot.amount = newSlot.item.MaximumAmount;
+                        int difference = newSlot.item.maximumAmount - newSlot.amount;
+                        newSlot.amount = newSlot.item.maximumAmount;
                         newSlot.itemAmountText.text = newSlot.amount.ToString();
 
                         oldSlot.amount -= difference;
@@ -170,7 +170,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
                 }
                 else if (Input.GetKey(KeyCode.LeftControl) && oldSlot.amount > 1)
                 {
-                    if (newSlot.item.MaximumAmount != newSlot.amount)
+                    if (newSlot.item.maximumAmount != newSlot.amount)
                     {
                         newSlot.amount++;
                         newSlot.itemAmountText.text = newSlot.amount.ToString();
@@ -182,10 +182,10 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
                 }
                 else
                 {
-                    if (newSlot.amount + oldSlot.amount >= newSlot.item.MaximumAmount)
+                    if (newSlot.amount + oldSlot.amount >= newSlot.item.maximumAmount)
                     {
-                        int difference = newSlot.item.MaximumAmount - newSlot.amount;
-                        newSlot.amount = newSlot.item.MaximumAmount;
+                        int difference = newSlot.item.maximumAmount - newSlot.amount;
+                        newSlot.amount = newSlot.item.maximumAmount;
                         newSlot.itemAmountText.text = newSlot.amount.ToString();
 
                         oldSlot.amount -= difference;
@@ -209,7 +209,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         if (oldSlot.isEmpty == false)
         {
             newSlot.SetIcon(oldSlot.iconGO.GetComponent<Image>().sprite);
-            if (oldSlot.item.MaximumAmount != 1) // added this if statement for single items
+            if (oldSlot.item.maximumAmount != 1) // added this if statement for single items
             {
                 newSlot.itemAmountText.text = oldSlot.amount.ToString();
             }
@@ -233,7 +233,7 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         if (isEmpty == false)
         {
             oldSlot.SetIcon(item.icon);
-            if (item.MaximumAmount != 1) // added this if statement for single items
+            if (item.maximumAmount != 1) // added this if statement for single items
             {
                 oldSlot.itemAmountText.text = amount.ToString();
             }
@@ -250,5 +250,18 @@ public class DragAndDropItem : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         }
 
         oldSlot.isEmpty = isEmpty;
+    }
+    public void ReturnBackToSlot()
+    {
+        if (oldSlot.isEmpty)
+            return;
+        // Делаем картинку опять не прозрачной
+        GetComponentInChildren<Image>().color = new Color(1, 1, 1, 1f);
+        // И чтобы мышка опять могла ее засечь
+        GetComponentInChildren<Image>().raycastTarget = true;
+
+        //Поставить DraggableObject обратно в свой старый слот
+        transform.SetParent(oldSlot.transform);
+        transform.position = oldSlot.transform.position;
     }
 }

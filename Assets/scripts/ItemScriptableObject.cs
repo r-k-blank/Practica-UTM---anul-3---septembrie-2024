@@ -8,9 +8,9 @@ public class ItemScriptableObject : ScriptableObject
     public ItemType itemType;
     public GameObject itemPrefab;
     public Sprite icon;
-    public string ItemName;
-    public int MaximumAmount;
-    public string ItemDescription;
+    public string itemName;
+    public int maximumAmount;
+    public string itemDescription;
     public bool isConsumeable;
     public string inHandName;
 
